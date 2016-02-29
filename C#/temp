@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html xmlns:fb="http://www.facebook.com/2008/fbml">
+<head><script src="http://sports-ak.espn.go.com/sports/optimizely.js"></script><meta charset="iso-8859-1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link rel="icon" sizes="any" mask href="http://a.espncdn.com/prod/assets/icons/E.svg">
+<meta name="theme-color" content="#CC0000">
+<script type="text/javascript">    
+    if(true && navigator && navigator.userAgent.toLowerCase().indexOf("teamstream") >= 0) {
+        window.location = 'http://a.m.espn.go.com/mobilecache/general/apps/sc';
+    }
+</script>
+	<script>(function(){function r(a){a=a.replace(/[\[]/,"\\[").replace(/[\]]/,"\\]");var c=new RegExp("[\\?&]"+a+"=([^&#]*)"),b=c.exec(location.search);return b==null?"":decodeURIComponent(b[1].replace(/\+/g," "));}var p=navigator.userAgent,o=window.location,l=document.cookie,f=document.referrer,n=(f===""||f.indexOf(".go.com")!==-1),d=(n)?"http://m.espn.go.com/ncb/clubhouse?teamId=2628&src=desktop":"http://m.espn.go.com/ncb/clubhouse?teamId=2628&src=desktop&rand=ref~%7B%22ref%22%3A%22"+encodeURIComponent(f)+"%22%7D",i=(p.match(/iPad/i)||(p.match(/Android/i)&&!p.match(/Mobile/i))||p.match(/RIM Tablet/i)||p.match(/Silk/i)),k=(p.match(/Mobile/i)||p.match(/Mini/i)),g=o.href.match(/src=mobile/i),q=l.indexOf("iphone_redirect=false")>-1,e=l.indexOf("iphone_redirect=true")>-1,j=r("addata"),h=r("ex_cid"),m=r("rand");if(j!=""){d+="&addata="+j;}if(h!=""){d+="&ex_cid="+h;}if(m==="beta"){d+="&rand=beta";}if(i){document.documentElement.className+=" tablet ";if((!p.match(/iPad/i)||e)&&!q){o.href=d;}}else{if(k&&!q&&!g){o.href=d;}}})();</script>
+	<title>TCU Horned Frogs 2015-16 Team Player Roster - College Basketball - ESPN</title>
+<meta name="google-site-verification" content="xuj1ODRluWa0frM-BjIr_aSHoUC7HB5C1MgmYAM_GkA" />
+<meta name="msvalidate.01" content="B1FEB7C682C46C8FCDA3130F3D18AC28" />
+<meta name="googlebot" content="noodp" />
+<meta name="robots" content="index, follow" />
+<meta name="description" content="Complete TCU Horned Frogs basketball team roster on ESPN.com, including all players, positions, jersey numbers, and class breakdown." />
+<meta name="keywords" content="tcu, horned frogs, roster, lineup, college basketball, players" />
+<meta property="fb:app_id" content="116656161708917">
+<meta property="og:site_name" content="ESPN.com">
+<!--
+<PageMap>
+	<DataObject type="document">
+		<Attribute name="title">TCU Horned Frogs 2015-16 Team Player Roster - College Basketball</Attribute>
+	</DataObject>
+</PageMap>
+--><link rel="canonical" href="http://espn.go.com/mens-college-basketball/team/roster/_/id/2628/tcu-horned-frogs" />
+
+		<script>var _sf_startpt=(new Date()).getTime();</script>
+<link rel="search" type="application/opensearchdescription+xml" href="http://a.espncdn.com/search/opensearch.xml" title="ESPN Search" />
+<link rel="stylesheet" href="http://a.espncdn.com/combiner/c/201501211964?css=global_reset.r1.css,base.r236.css,modules.r465.css,global_header.r44.css,header_topbar.r1.css,modules/global_nav.r54.css,modules/insider_enhanced.r1.css,modules/mem/mem.r12.1.css,modules/mem/mem_espn360.r8.4.css,modules/mem/skirmish.r8.css,modules/twin.r1.css,modules/facebook/button.r2.css,universal_overlay/universal_overlay.css,universal_overlay/media_overlay.css,universal_overlay/video_overlay.css,universal_overlay/photo_overlay.css,universal_overlay/dyk_overlay.css,fonts/bentonsans.css,fonts/bentonsansmedium.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://a.espncdn.com/combiner/c/201508060924?css=sprites/teamlogos.r19.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://a.espncdn.com/combiner/c/20121005125?css=clubhouse_ncaa_10.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://a.espncdn.com/combiner/c/20121005125?css=clubhouse_ncb_10.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://a.espncdn.com/combiner/c/20120509325?css=modules/master_tables_10.r3.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://a.espncdn.com/combiner/c/20121024544?css=pagetype/clubhouse.r9.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://a.espncdn.com/combiner/c/20120509325?css=modules/tabs-page-nav.3.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://a.espncdn.com/prod/styles/transitionalHeader/transitional-header-clubhouse.css" type="text/css" media="screen" charset="utf-8" />
+<script src="http://widgets.outbrain.com/outbrain.js"></script>
+<script type="text/javascript">
+var _vrq = _vrq || [];
+ _vrq.push(['id', 489]);
+ _vrq.push(['automate', false]);
+ _vrq.push(['track', function(){}]);
+ (function(d, a){var s = d.createElement(a),x = d.getElementsByTagName(a)[0];
+s.async = true;
+s.src = 'http://a.visualrevenue.com/vrs.js';
+ x.parentNode.insertBefore(s, x);})(document, 'script'); </script>
+<script type="text/javascript" src="http://a.espncdn.com/legacy/desktop/1.0.13/js/espn-critical.js"></script>
+<script>espn.core.navVersion = 'a';</script>
+<script>var ad_site="espn.us.com.ncb",ad_zone="ncbteamroster",ad_kvps="pgtyp=ncbteamroster;sp=ncb;nav=true;",ad_swid="",ad_counter=1,ad_ord=Math.floor(9999999999*Math.random()),ad_seg="",ad_mnr=-1<document.cookie.indexOf("grif=1")?"t":"f",ad_ref="other",ad_sp="ncb",ad_pgtyp="ncbteamroster",ad_pgn="",ref=document.referrer,refsMap={"facebook.com":"facebook","twitter.com|t.co":"twitter","plus.url.google.com|plus.google.com":"googleplus","google.com":"google","bing.com":"bing","yahoo.com":"yahoo","espn.go.com":"espn"},refKey;for(refKey in refsMap)ref.match(refKey)&&(ad_ref=refsMap[refKey]);
+ad_kvps=ad_kvps+"ref="+ad_ref+";mnr="+ad_mnr+";";ad_swid=jQuery.cookie("SWID");"function"===typeof espn.core.ad_segments&&(ad_seg=espn.core.ad_segments(),null!=ad_seg&&""!=ad_seg&&(ad_kvps+=ad_seg));var ad_u="";null!=ad_swid&&""!=ad_swid&&(ad_u="swid="+ad_swid+";");</script>
+<link rel="stylesheet" href="http://a.espncdn.com/legacy/transitionalHeader/1.0.8/css/transitional-header.css" type="text/css" media="screen" charset="utf-8" />
+</head>
+<body class="ncb {sportId:41, teamId:2628} clubhouse ncaa ncaa-2628"  data-sport="ncb">
+<!--[if IE 5]><div class="ie5"><![endif]-->
+<!--[if IE 6]><div class="ie ie6"><![endif]-->
+<!--[if IE 7]><div class="ie ie7"><![endif]-->
+<!--[if IE 8]><div class="ie ie8"><![endif]-->
+<!--[if IE 9]><div class="ie9"><![endif]-->
+<!-- begin bg-elements -->
+<div class="bg-elements">
+
+<!-- gpt ad type: background_skin kvps: pgtyp=ncbteamroster;sp=ncb;nav=true;-->
+<div class="ad-slot ad-slot-background_skin" data-slot-type="background_skin" data-slot-kvps="pos=background_skin" data-exclude-bp="s,m" data-collapse-before-load="true"></div><!-- begin subheader -->
+<div id="subheader">
+<!-- begin content -->
+<div id="content-wrapper">
+<div id="ad-top" class="container">
+<!-- begin Banner ad -->
+<div class="span-6 ad banner top"><div class="ad-center"><div class="ad-wrapper">
+<!-- gpt ad type: banner kvps: pgtyp=ncbteamroster;sp=ncb;nav=true;-->
+<div class="ad-slot ad-slot-banner" data-slot-type="banner" data-slot-kvps="pos=banner"></div></div></div></div>
+<!-- end Banner ad -->
+</div>
+<div id="content" class="container">
+<div id="fb-root"></div><!--[if lte IE 7]><link rel="stylesheet" charset="utf-8" media="screen" href="http://a.espncdn.com/combiner/c?css=modules/browser-alert.r7.css" type="text/css" /><div class="span-6" id="browser-alert-wrapper" style="display:none;"><div class="mod-container mod-no-header-footer browser-alert"><div class="mod-content"><div class="gradient-container"><h1><span>Your Web Browser</span> is no longer supported</h1><p>To experience everything that ESPN.com has to offer, we recommend that you upgrade to a newer version of your web browser. Click the upgrade button to the right or <a href="http://espn.go.com/espn/news/story?id=5630562">learn more</a>.</p><ul><li><a class="btn-upgrade" href="http://www.microsoft.com/windows/internet-explorer/default.aspx">Upgrade</a></li><li><a class="btn-faq" href="http://espn.go.com/espn/news/story?id=5630562">FAQs</a></li></ul></div></div></div></div><script>(function(b){setTimeout(function(){var a=b("#browser-alert-wrapper");if(espn.cookie.get("browseralert")!="true"){b('<a class="btn-close" href="#">Close</a>').bind("click",function(){a.hide();espn.cookie.set("browseralert","true",30);return false}).appendTo(a.find(".gradient-container"));a.show();espn.cookie.set("browseralert","true")}},100)})(jQuery);</script><![endif]--><div id="sub-branding"><h2 class="logo"><a href="http://espn.go.com/ncb/team/_/id/2628/tcu-horned-frogs" class="sub-brand-title"><b>TCU Horned Frogs</b></a></h2><div class="presby">
+<!-- gpt ad type: enhancedlogo kvps: pgtyp=ncbteamroster;sp=ncb;nav=true;-->
+<div class="ad-slot ad-slot-enhancedlogo" data-slot-type="enhancedlogo" data-slot-kvps="pos=enhancedlogo"></div></div><div class="sub-title">11-18, 10th in Big 12 Conference</div></div>
+
+<script type="text/javascript">
+	var loggedIn = espn.core.loggedIn;
+	var displayModule = false;
+	var showAddButton = true;
+	var fadeTime = 1500;
+	var baseRef = '/';
+	var lang = 'en';
+	(function($) {
+		function resetData(checkSport, checkTeam){
+			if (loggedIn){
+				espn.p13n.reset({
+					success: function(data){
+						if (data != null && data != 'UNDEF' && typeof(data.myTeams) != 'UNDEF' && data.myTeams != null){
+							var count = 0;
+							var sportTypes = {10:'mlb',46:'nba',28:'nfl',90:'nhl',23:'ncf',41:'ncb',54:'ncw',600:'soccer'}
+							var sportAbbrevs = {10:'MLB',46:'NBA',28:'NFL',90:'NHL',23:'NCAAF',41:'NCAAM',54:'NCAAW',600:'Soccer'}
+							$.each(data.myTeams, function(i,item){
+								if ((checkTeam == item.id && checkSport == item.sport) || (checkTeam == 0 && checkSport == 0)){ // when updating a team, only update that specific team
+									var logo = '';
+									if (typeof(item.sport) != 'UNDEF' && item.sport != null){
+										sportType = sportTypes[item.sport];
+										sportAbbrev = sportAbbrevs[item.sport];
+										sport = item.sport;
+										abbrev = '';
+										swabbrev = '';
+										if (typeof(item.abbrev) != 'UNDEF' && item.abbrev != null){
+											abbrev = item.abbrev.toLowerCase();
+										}
+										if (typeof(item.sw_abbrev) != 'UNDEF' && item.sw_abbrev != null){
+											swabbrev = item.sw_abbrev.toLowerCase();
+										}
+										desc = item.text;
+										descSEO = desc;
+										while(descSEO.indexOf(' ')!=-1)descSEO=descSEO.replace(' ','-');
+										if (sport == 10 || sport == 28 || sport == 90 || sport == 46){ // mlb, nfl and nhl (new reshelled clubhouses will go here)
+											if (swabbrev == ''){ swabbrev = abbrev; }
+											logo = '<a href="http://espn.go.com/' + sportType + baseRef + 'team/_/name/' + abbrev + '/' + descSEO.toLowerCase() + '"  title="' + desc + '"><div class="logo-medium logo-' + sportType + '-medium ' + sportType + '-medium-' + item.id + '"></div></a>';
+										}
+										else if (sportType == 'ncf'){
+											tAbbrev = item.id
+											logo = '<a href="http://espn.go.com/college-football/team/_/id/' + tAbbrev + '/' + descSEO.toLowerCase() + '" title="' + desc + ' - ' + sportAbbrev + '"><img src="http://a.espncdn.com/i/teamlogos/ncaa/sml/trans/' + tAbbrev + '.gif" alt=""/></a>';
+										}
+										else if (sportType == 'ncb'){
+											tAbbrev = item.id
+											logo = '<a href="http://espn.go.com/mens-college-basketball/team/_/id/' + tAbbrev + '/' + descSEO.toLowerCase() + '" title="' + desc + ' - ' + sportAbbrev + '"><img src="http://a.espncdn.com/i/teamlogos/ncaa/sml/trans/' + tAbbrev + '.gif" alt=""/></a>';
+										}
+										else if (sportType == 'ncw'){ // ncaa
+											tAbbrev = item.id;
+											logoAbbrev = tAbbrev
+											if (item.sport == 54 && item.id == 2633){ logoAbbrev = tAbbrev + '_ncw'; }
+											logo = '<a href="http://espn.go.com/womens-college-basketball/team/_/id/' + tAbbrev + '/' + descSEO.toLowerCase() + '" title="' + desc + ' - ' + sportAbbrev + '"><img src="http://a.espncdn.com/i/teamlogos/ncaa/sml/trans/' + logoAbbrev + '.gif" alt=""/></a>';
+										}
+										else if (sportType == 'soccer'){ // all inclusive soccer list
+											logo = '<a href="http://espnfc.com/team?id=' + item.id + '" title="' + desc + ' ' + sportAbbrev + '"><img width="50" height="50" src="http://soccernet-akamai.espn.go.com/design05/i/clubhouse/badges/' + item.id + '.gif" alt=""/></a>';
+										}
+										if (count == 0 && !displayModule){
+											$('.mod-myespn .personalization-teams').html('');
+										}
+										if (logo != ''){
+											if (checkTeam == item.id && checkSport == item.sport){
+												$('.mod-myespn .personalization-teams').append(logo).fadeIn(fadeTime, function(){
+													espn.core.init.faves();
+												});
+											}
+											else{
+												$('.mod-myespn .personalization-teams').append(logo);
+											}
+										}
+										count++;
+									}
+									if (count == 1 && !displayModule){
+										$('#myespn-personalization').show();
+										displayModule = true;
+									}
+								}
+							});
+						}
+					}
+				});
+			}
+		}
+		$(document).ready(function() {
+			var teamId = $('body').metadata()['teamId'];
+			var sportId = $('body').metadata()['sportId'];
+			var groupId = $('body').metadata()['groupId'];
+			var teamName = 'TCU Horned Frogs';
+			var abbrevs = {10:'mlb',46:'nba',28:'nfl',90:'nhl',23:'ncf',41:'ncb',54:'ncw'}
+			var teamAbbrev = abbrevs[sportId];
+			'espn.nav.tier3'.namespace();
+			espn.nav.tier3.teamId = teamId;
+			espn.nav.tier3.sportId = sportId;
+			//disallow favorting for d2 schools based off of the groupId
+			var showFavorites = false;//!((groupId == 35 && sportId == 23) || (groupId == 51 && (sportId == 54 || sportId == 41)))
+			if(showFavorites){
+				if (loggedIn){
+					if ($('#sub-branding h1').length > 0){
+						$('#sub-branding h1').after('<a class="btn-add-fave-team"></a>');
+					}
+					else{
+						$('#sub-branding h2').after('<a class="btn-add-fave-team"></a>');
+					}
+					resetData(0, 0);
+					espn.p13n.get({
+						"success" : function(data) {
+							if (data!=null && data!='UNDEF' && typeof(data.myTeams) != 'UNDEF' && data.myTeams != null) {
+								$.each(data.myTeams, function(i,item) {
+									if (typeof(item.sport) != 'UNDEF' && item.sport != null) {
+										if (item.sport == sportId && item.id == teamId){
+											showAddButton = false;
+										}
+									}
+								});
+							}
+							if (showAddButton){
+								$('#sub-branding a.btn-add-fave-team').html('Add to my favorites').show().attr("onclick","anTrackLink(this,'espn','teamclubhouse','" + teamAbbrev + "_" + teamName.toLowerCase().replace(' ','') + "_addfavorite_loggedin-add'); return false;");
+							}
+						},
+						"error" : function(){
+							$('body.clubhouse #clubhouse-city-teams').show();
+						}
+					});
+					$('#sub-branding a.btn-add-fave-team').click(function(){
+						if (showAddButton){ // don't allow the button to click through if it is informing you of their favorite team
+							showAddButton = false; // don't allow multiple clicks during the transition
+							espn.p13n.add(
+								{
+									"teams": sportId+":"+teamId
+								},
+								{
+									"success" : function() {
+										$('#sub-branding a.btn-add-fave-team').html('Added').addClass('favorite').css('cursor','default');
+										setTimeout(function(){
+												resetData(sportId,teamId);
+											}, fadeTime
+										);
+										if (!!espn.fanapi && typeof espn.fanapi.emptyCache === "function") {
+											espn.fanapi.emptyCache();
+											window.location.reload();
+										}
+									},
+									"error" : function() {
+
+									}
+								}
+							);
+						}
+					});
+				}
+				else{
+					$('body.clubhouse #clubhouse-city-teams').show();
+					if ($('#sub-branding h1').length > 0){
+						$('#sub-branding h1').after('<a class="btn-add-fave-team">Sign in to personalize</a>');
+					}
+					else{
+						$('#sub-branding h2').after('<a class="btn-add-fave-team">Sign in to personalize</a>');
+					}
+					$('#sub-branding a.btn-add-fave-team').show().attr('href','').attr('name','&lops=teamclubhouse&lid=' + teamAbbrev + '_' + teamName.toLowerCase().replace(' ','') + '_addfavorite_loggedout').attr('tref','/members/v3_1/login').attr('data-options','{"addTeams":"'+sportId+':'+teamId+'","width":"820","height":"385"}').attr({"data-behavior":"overlay","data-remember-team":"true"});
+				}
+
+			$('#sub-branding a.btn-add-fave-team').hover(
+				function(){
+					$(this).addClass('favorite').css('font-size','10px');
+				},
+				function(){
+					if (showAddButton){
+						$(this).removeClass('favorite').css('font-size','11px');
+					}
+				}
+			);
+
+			$('.inline-header ul.links li a').attr('data-behavior','clubhouse_favorite').attr({href:'',tref:'/personalization/v3_1/personalization','data-language':lang.toLowerCase(),tab:'teams'});
+			}
+		});
+	})(jQuery);
+</script><style>body.ncb .stathead td,body.ncb .stathead,.mod-content tr.stathead,.mod-content tr.stathead td,.mod-header,body.clubhouse .mod-calendar-month td.day.home div.day-top,body.clubhouse .mod-calendar-month tr.util td ul.key li span.home, body.ncb .mod-data-table .mod-header{background: #3C377D !important;}</style><style type="text/css">.mod-content table.tablehead {margin-bottom:0;}</style>
+
+	
+	<style>
+		img.teamimage {
+			width: 50px;
+			height: 50px;
+		}
+	</style>
+	<div class="mod-page-tabs mod-pagenav-tabs"><ul class="ui-tabs"><li ><a href="/mens-college-basketball/team/_/id/2628/tcu-horned-frogs">Clubhouse</a></li><li ><a href="/mens-college-basketball/team/schedule/_/id/2628/tcu-horned-frogs">Schedule</a></li><li ><a href="/mens-college-basketball/team/stats/_/id/2628/tcu-horned-frogs">Statistics</a></li><li class="active"><a href="/mens-college-basketball/team/roster/_/id/2628/tcu-horned-frogs">Roster</a></li><li ><a href="/mens-college-basketball/team/photos/_/id/2628/tcu-horned-frogs">Photos</a></li><li  onclick="this.href=this.href+'?gcid=C12289x453&keyword=TCU+Horned+Frogs+Basketball+Nav'" target="_blank"><a href="http://www.stubhub.com/tcu-basketball-tickets/?gcid=C12289x453&keyword=TCU+Horned+Frogs+Basketball+Nav">Tickets</a></li><li ><a href="http://www.dickssportinggoods.com/category/index.jsp?categoryId=15572786&camp=Part:ESPNpart::ncbclubhousenav:TCUHornedFrogs" rel="nofollow">Shop</a></li></ul></div>
+	<div class="bg-opaque" id="my-teams-table">
+		<div class="span-6">
+			<div class="col-main" id="my-teams-table">
+				<div class="mod-section-header">
+					<h1 class="h2">TCU Horned Frogs Roster</h1>
+					<form class="js-goto"><select class="select-box"><option value="">Men's College Basketball Teams</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2000/abilene-christian-wildcats">Abilene Christian </option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2005/air-force-falcons">Air Force</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2006/akron-zips">Akron</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/333/alabama-crimson-tide">Alabama</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2010/alabama-bulldogs">Alabama A&M</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2011/alabama-state-hornets">Alabama State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/399/albany-great-danes">Albany</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2016/alcorn-state-braves">Alcorn State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/44/american-eagles">American</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2026/appalachian-state-mountaineers">Appalachian State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/12/arizona-wildcats">Arizona</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/9/arizona-state-sun-devils">Arizona State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/8/arkansas-razorbacks">Arkansas</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2032/arkansas-state-red-wolves">Arkansas State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2031/arkansas-little-rock-trojans">Arkansas-Little Rock</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2029/arkansas-pine-bluff-golden-lions">Arkansas-Pine Bluff</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/349/army-west-point">Army</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2/auburn-tigers">Auburn</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2046/austin-peay-governors">Austin Peay</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2050/ball-state-cardinals">Ball State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/239/baylor-bears">Baylor</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2057/belmont-bruins">Belmont</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2065/bethune-cookman-wildcats">Bethune-Cookman</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2066/binghamton-bearcats">Binghamton</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/68/boise-state-broncos">Boise State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/103/boston-college-eagles">Boston College</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/104/boston-university-terriers">Boston University</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/189/bowling-green-falcons">Bowling Green</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/71/bradley-braves">Bradley</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/225/brown-bears">Brown</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2803/bryant-bulldogs">Bryant</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2083/bucknell-bison">Bucknell</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2084/buffalo-bulls">Buffalo</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2086/butler-bulldogs">Butler</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/252/byu-cougars">BYU</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/13/cal-poly-mustangs">Cal Poly</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2239/cal-state-fullerton-titans">Cal State Fullerton</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/25/california-golden-bears">California</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2097/campbell-camels">Campbell</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2099/canisius-golden-griffins">Canisius</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2110/central-arkansas-bears">Central Arkansas</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2115/central-connecticut-blue-devils">Central Connecticut</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2117/central-michigan-chippewas">Central Michigan</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/232/charleston-cougars">Charleston</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2127/charleston-southern-buccaneers">Charleston Southern</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2429/charlotte-49ers">Charlotte</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/236/chattanooga-mocs">Chattanooga</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2130/chicago-state-cougars">Chicago State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2132/cincinnati-bearcats">Cincinnati</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/228/clemson-tigers">Clemson</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/325/cleveland-state-vikings">Cleveland State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/324/coastal-carolina-chanticleers">Coastal Carolina</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2142/colgate-raiders">Colgate</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/38/colorado-buffaloes">Colorado</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/36/colorado-state-rams">Colorado State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/171/columbia-lions">Columbia</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/41/connecticut-huskies">Connecticut</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2154/coppin-state-eagles">Coppin State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/172/cornell-big-red">Cornell</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/156/creighton-bluejays">Creighton</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2463/cs-northridge-matadors">CS Northridge</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2934/csu-bakersfield-roadrunners">CSU Bakersfield</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/159/dartmouth-big-green">Dartmouth</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2166/davidson-wildcats">Davidson</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2168/dayton-flyers">Dayton</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/48/delaware-blue-hens">Delaware</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2169/delaware-state-hornets">Delaware State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2172/denver-pioneers">Denver</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/305/depaul-blue-demons">DePaul</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2174/detroit-titans">Detroit</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2181/drake-bulldogs">Drake</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2182/drexel-dragons">Drexel</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/150/duke-blue-devils">Duke</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2184/duquesne-dukes">Duquesne</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/151/east-carolina-pirates">East Carolina</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2193/east-tennessee-state-buccaneers">East Tennessee State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2197/eastern-illinois-panthers">Eastern Illinois</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2198/eastern-kentucky-colonels">Eastern Kentucky</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2199/eastern-michigan-eagles">Eastern Michigan</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/331/eastern-washington-eagles">Eastern Washington</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2210/elon-phoenix">Elon</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/339/evansville-purple-aces">Evansville</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2217/fairfield-stags">Fairfield</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/161/fairleigh-dickinson-knights">Fairleigh Dickinson</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/57/florida-gators">Florida</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/50/florida-rattlers">Florida A&M</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2226/florida-atlantic-owls">Florida Atlantic</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/526/florida-gulf-coast-eagles">Florida Gulf Coast</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2229/florida-intl-golden-panthers">Florida Intl</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/52/florida-state-seminoles">Florida State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2230/fordham-rams">Fordham</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/278/fresno-state-bulldogs">Fresno State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/231/furman-paladins">Furman</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2241/gardner-webb-bulldogs">Gardner-Webb</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2244/george-mason-patriots">George Mason</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/45/george-washington-colonials">George Washington</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/46/georgetown-hoyas">Georgetown</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/61/georgia-bulldogs">Georgia</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/290/georgia-southern-eagles">Georgia Southern</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2247/georgia-state-panthers">Georgia State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/59/georgia-tech-yellow-jackets">Georgia Tech</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2250/gonzaga-bulldogs">Gonzaga</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2755/grambling-state-tigers">Grambling State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2253/grand-canyon-antelopes">Grand Canyon</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2739/green-bay-phoenix">Green Bay</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2261/hampton-pirates">Hampton</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/42/hartford-hawks">Hartford</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/108/harvard-crimson">Harvard</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/62/hawaii-rainbow-warriors">Hawaii</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2272/high-point-panthers">High Point</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2275/hofstra-pride">Hofstra</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/107/holy-cross-crusaders">Holy Cross</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/248/houston-cougars">Houston</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2277/houston-baptist-huskies">Houston Baptist</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/47/howard-bison">Howard</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/70/idaho-vandals">Idaho</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/304/idaho-state-bengals">Idaho State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/356/illinois-fighting-illini">Illinois</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2287/illinois-state-redbirds">Illinois State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2916/incarnate-word-cardinals">Incarnate Word</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/84/indiana-hoosiers">Indiana</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/282/indiana-state-sycamores">Indiana State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/314/iona-gaels">Iona</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2294/iowa-hawkeyes">Iowa</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/66/iowa-state-cyclones">Iowa State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2870/ipfw-mastodons">IPFW</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/85/iupui-jaguars">IUPUI</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2296/jackson-state-tigers">Jackson State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/294/jacksonville-dolphins">Jacksonville</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/55/jacksonville-state-gamecocks">Jacksonville State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/256/james-madison-dukes">James Madison</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2305/kansas-jayhawks">Kansas</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2306/kansas-state-wildcats">Kansas State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/338/kennesaw-state-owls">Kennesaw State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2309/kent-state-golden-flashes">Kent State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/96/kentucky-wildcats">Kentucky</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2325/la-salle-explorers">La Salle</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/322/lafayette-leopards">Lafayette</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2320/lamar-cardinals">Lamar</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2329/lehigh-mountain-hawks">Lehigh</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2335/liberty-flames">Liberty</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/288/lipscomb-bisons">Lipscomb</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2341/liu-brooklyn-blackbirds">LIU Brooklyn</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/299/long-beach-state-49ers">Long Beach State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2344/longwood-lancers">Longwood</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/309/louisiana-lafayette-ragin-cajuns">Louisiana Lafayette</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2433/louisiana-monroe-warhawks">Louisiana Monroe</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2348/louisiana-tech-bulldogs">Louisiana Tech</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/97/louisville-cardinals">Louisville</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2350/loyola-chi-ramblers">Loyola (CHI)</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2352/loyola-md-greyhounds">Loyola (MD)</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2351/loyola-marymount-lions">Loyola Marymount</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/99/lsu-tigers">LSU</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/311/maine-black-bears">Maine</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2363/manhattan-jaspers">Manhattan</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2368/marist-red-foxes">Marist</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/269/marquette-golden-eagles">Marquette</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/276/marshall-thundering-herd">Marshall</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/120/maryland-terrapins">Maryland</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2379/maryland-eastern-shore-hawks">Maryland-Eastern Shore</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/113/massachusetts-minutemen">Massachusetts</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2377/mcneese-state-cowboys">McNeese State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/235/memphis-tigers">Memphis</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2382/mercer-bears">Mercer</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2390/miami-fl-hurricanes">Miami (FL)</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/193/miami-oh-redhawks">Miami (OH)</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/130/michigan-wolverines">Michigan</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/127/michigan-state-spartans">Michigan State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2393/middle-tennessee-blue-raiders">Middle Tennessee</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/270/milwaukee-panthers">Milwaukee</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/135/minnesota-golden-gophers">Minnesota</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/344/mississippi-state-bulldogs">Mississippi State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2400/mississippi-valley-state-delta-devils">Mississippi Valley State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/142/missouri-tigers">Missouri</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2623/missouri-state-bears">Missouri State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2405/monmouth-hawks">Monmouth</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/149/montana-grizzlies">Montana</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/147/montana-state-bobcats">Montana State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2413/morehead-state-eagles">Morehead State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2415/morgan-state-bears">Morgan State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/116/mount-st-mary-mountaineers">Mount St Mary's</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/93/murray-state-racers">Murray State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2426/navy-midshipmen">Navy</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/152/nc-state-wolfpack">NC State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/158/nebraska-cornhuskers">Nebraska</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2440/nevada-wolf-pack">Nevada</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/160/new-hampshire-wildcats">New Hampshire</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/167/new-mexico-lobos">New Mexico</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/166/new-mexico-state-aggies">New Mexico State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2443/new-orleans-privateers">New Orleans</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/315/niagara-purple-eagles">Niagara</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2447/nicholls-state-colonels">Nicholls State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2885/njit-highlanders">NJIT</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2450/norfolk-state-spartans">Norfolk State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/153/north-carolina-tar-heels">North Carolina</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2448/north-carolina-aggies">North Carolina A&T</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2428/north-carolina-central-eagles">North Carolina Central</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/155/north-dakota-fighting-hawks">North Dakota</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2449/north-dakota-state-bison">North Dakota State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2454/north-florida-ospreys">North Florida</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/249/north-texas-mean-green">North Texas</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/111/northeastern-huskies">Northeastern</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2464/northern-arizona-lumberjacks">Northern Arizona</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2458/northern-colorado-bears">Northern Colorado</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2459/northern-illinois-huskies">Northern Illinois</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2460/northern-iowa-panthers">Northern Iowa</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/94/northern-kentucky-norse">Northern Kentucky</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/77/northwestern-wildcats">Northwestern</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2466/northwestern-state-demons">Northwestern State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/87/notre-dame-fighting-irish">Notre Dame</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2473/oakland-golden-grizzlies">Oakland</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/195/ohio-bobcats">Ohio</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/194/ohio-state-buckeyes">Ohio State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/201/oklahoma-sooners">Oklahoma</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/197/oklahoma-state-cowboys">Oklahoma State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/295/old-dominion-monarchs">Old Dominion</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/145/ole-miss-rebels">Ole Miss</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2437/omaha-mavericks">Omaha</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/198/oral-roberts-golden-eagles">Oral Roberts</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2483/oregon-ducks">Oregon</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/204/oregon-state-beavers">Oregon State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/279/pacific-tigers">Pacific</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/219/penn-quakers">Penn</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/213/penn-state-nittany-lions">Penn State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2492/pepperdine-waves">Pepperdine</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/221/pittsburgh-panthers">Pittsburgh</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2501/portland-pilots">Portland</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2502/portland-state-vikings">Portland State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2504/prairie-view-panthers">Prairie View A&M</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2506/presbyterian-college-blue-hose">Presbyterian College</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/163/princeton-tigers">Princeton</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2507/providence-friars">Providence</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2509/purdue-boilermakers">Purdue</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2514/quinnipiac-bobcats">Quinnipiac</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2515/radford-highlanders">Radford</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/227/rhode-island-rams">Rhode Island</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/242/rice-owls">Rice</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/257/richmond-spiders">Richmond</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2520/rider-broncs">Rider</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2523/robert-morris-colonials">Robert Morris</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/164/rutgers-scarlet-knights">Rutgers</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/16/sacramento-state-hornets">Sacramento State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2529/sacred-heart-pioneers">Sacred Heart</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2603/saint-joseph-hawks">Saint Joseph's</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/139/saint-louis-billikens">Saint Louis</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2608/saint-mary-gaels">Saint Mary's</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2612/saint-peter-peacocks">Saint Peter's</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2534/sam-houston-state-bearkats">Sam Houston State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2535/samford-bulldogs">Samford</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/301/san-diego-toreros">San Diego</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/21/san-diego-state-aztecs">San Diego State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2539/san-francisco-dons">San Francisco</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/23/san-josé-state-spartans">San José State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2541/santa-clara-broncos">Santa Clara</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2542/savannah-state-tigers">Savannah State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2547/seattle-redhawks">Seattle</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2550/seton-hall-pirates">Seton Hall</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2561/siena-saints">Siena</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2565/siu-edwardsville-cougars">SIU Edwardsville</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2567/smu-mustangs">SMU</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/6/south-alabama-jaguars">South Alabama</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2579/south-carolina-gamecocks">South Carolina</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2569/south-carolina-state-bulldogs">South Carolina State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2908/south-carolina-upstate-spartans">South Carolina Upstate</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/233/south-dakota-coyotes">South Dakota</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2571/south-dakota-state-jackrabbits">South Dakota State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/58/south-florida-bulls">South Florida</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2546/southeast-missouri-state-redhawks">Southeast Missouri State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2545/southeastern-louisiana-lions">Southeastern Louisiana</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2582/southern-jaguars">Southern</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/79/southern-illinois-salukis">Southern Illinois</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2572/southern-mississippi-golden-eagles">Southern Mississippi</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/253/southern-utah-thunderbirds">Southern Utah</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/179/st-bonaventure-bonnies">St Bonaventure</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2597/st-francis-bkn-terriers">St Francis (BKN)</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2598/st-francis-pa-red-flash">St Francis (PA)</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2599/st-john-red-storm">St John's</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/24/stanford-cardinal">Stanford</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2617/stephen-f-austin-lumberjacks">Stephen F. Austin</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/56/stetson-hatters">Stetson</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2619/stony-brook-seawolves">Stony Brook</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/183/syracuse-orange">Syracuse</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2628/tcu-horned-frogs">TCU</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/218/temple-owls">Temple</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2633/tennessee-volunteers">Tennessee</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2634/tennessee-state-tigers">Tennessee State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2635/tennessee-tech-golden-eagles">Tennessee Tech</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2630/tennessee-martin-skyhawks">Tennessee-Martin</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/251/texas-longhorns">Texas</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/245/texas-aggies">Texas A&M</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/357/texas-cc-islanders">Texas A&M-CC</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2636/texas-san-antonio-roadrunners">Texas San Antonio</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2640/texas-southern-tigers">Texas Southern</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/326/texas-state-bobcats">Texas State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2641/texas-tech-red-raiders">Texas Tech</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2643/the-citadel-bulldogs">The Citadel</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2649/toledo-rockets">Toledo</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/119/towson-tigers">Towson</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2653/troy-trojans">Troy</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2655/tulane-green-wave">Tulane</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/202/tulsa-golden-hurricane">Tulsa</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/5/uab-blazers">UAB</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/302/uc-davis-aggies">UC Davis</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/300/uc-irvine-anteaters">UC Irvine</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/27/uc-riverside-highlanders">UC Riverside</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2540/uc-santa-barbara-gauchos">UC Santa Barbara</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2116/ucf-knights">UCF</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/26/ucla-bruins">UCLA</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/82/uic-flames">UIC</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2349/umass-lowell-umass-lowell">UMass Lowell</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2378/umbc-retrievers">UMBC</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/140/umkc-kangaroos">UMKC</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2427/unc-asheville-bulldogs">UNC Asheville</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2430/unc-greensboro-spartans">UNC Greensboro</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/350/unc-wilmington-seahawks">UNC Wilmington</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2439/unlv-rebels">UNLV</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/30/usc-trojans">USC</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/292/ut-rio-grande-valley-vaqueros">UT Rio Grande Valley</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/250/ut-arlington-mavericks">UT-Arlington</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/254/utah-utes">Utah</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/328/utah-state-aggies">Utah State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/3084/utah-valley-wolverines">Utah Valley</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2638/utep-miners">UTEP</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2674/valparaiso-crusaders">Valparaiso</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/238/vanderbilt-commodores">Vanderbilt</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2670/vcu-rams">VCU</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/261/vermont-catamounts">Vermont</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/222/villanova-wildcats">Villanova</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/258/virginia-cavaliers">Virginia</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/259/virginia-tech-hokies">Virginia Tech</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2678/vmi-keydets">VMI</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2681/wagner-seahawks">Wagner</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/154/wake-forest-demon-deacons">Wake Forest</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/264/washington-huskies">Washington</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/265/washington-state-cougars">Washington State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2692/weber-state-wildcats">Weber State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/277/west-virginia-mountaineers">West Virginia</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2717/western-carolina-catamounts">Western Carolina</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2710/western-illinois-leathernecks">Western Illinois</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/98/western-kentucky-hilltoppers">Western Kentucky</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2711/western-michigan-broncos">Western Michigan</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2724/wichita-st-shockers">Wichita St</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2729/william-mary-tribe">William & Mary</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2737/winthrop-eagles">Winthrop</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/275/wisconsin-badgers">Wisconsin</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2747/wofford-terriers">Wofford</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2750/wright-state-raiders">Wright State</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2751/wyoming-cowboys">Wyoming</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2752/xavier-musketeers">Xavier</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/43/yale-bulldogs">Yale</option><option value="http://espn.go.com/mens-college-basketball/team/roster/_/id/2754/youngstown-state-penguins">Youngstown State</option></select></form>
+				</div>
+				<div class="mod-container mod-table mod-no-header mod-no-footer"><div class="mod-content"><table cellspacing="1" cellpadding="3" class="tablehead"><tr class="stathead"><td colspan="7">TCU Horned Frogs</td></tr><tr class="colhead"><td><a href="http://espn.go.com/mens-college-basketball/team/roster/_/id/2628/order/true">NO</a></td><td><a href="http://espn.go.com/mens-college-basketball/team/roster/_/id/2628/sort/lastName">NAME</a></td><td>POS</td><td><a href="http://espn.go.com/mens-college-basketball/team/roster/_/id/2628/sort/height">HT</a></td><td><a href="http://espn.go.com/mens-college-basketball/team/roster/_/id/2628/sort/weight">WT</a></td><td><a href="http://espn.go.com/mens-college-basketball/team/roster/_/id/2628/sort/experience">CLASS</a></td><td>HOMETOWN</td></tr><tr class="oddrow"><td class="sortcell">0</td><td><a href="http://espn.go.com/mens-college-basketball/player/_/id/3947244/lyrik-shreiner">Lyrik Shreiner</a></td><td>G</td><td>6-3</td><td>190</td><td>FR</td><td>Phoenix, AZ</td></tr><tr class="evenrow"><td class="sortcell">1</td><td><a href="http://espn.go.com/mens-college-basketball/player/_/id/3133623/chauncey-collins">Chauncey Collins</a></td><td>G</td><td>6-0</td><td>180</td><td>SO</td><td>Oklahoma City, OK</td></tr><tr class="oddrow"><td class="sortcell">2</td><td><a href="http://espn.go.com/mens-college-basketball/player/_/id/66152/michael-williams">Michael Williams</a></td><td>G</td><td>6-2</td><td>195</td><td>JR</td><td>SAN ANTONIO, TX</td></tr><tr class="evenrow"><td class="sortcell">3</td><td><a href="http://espn.go.com/mens-college-basketball/player/_/id/3947245/malique-trent">Malique Trent</a></td><td>G</td><td>6-2</td><td>185</td><td>SO</td><td>Portsmouth, VA</td></tr><tr class="oddrow"><td class="sortcell">10</td><td><a href="http://espn.go.com/mens-college-basketball/player/_/id/3947246/vladimir-brodziansky">Vladimir Brodziansky</a></td><td>F</td><td>6-10</td><td>215</td><td>SO</td><td>Prievidza, Slovakia</td></tr><tr class="evenrow"><td class="sortcell">11</td><td><a href="http://espn.go.com/mens-college-basketball/player/_/id/66153/brandon-parrish">Brandon Parrish</a></td><td>G</td><td>6-6</td><td>210</td><td>JR</td><td>Arlington, TX</td></tr><tr class="oddrow"><td class="sortcell">15</td><td><a href="http://espn.go.com/mens-college-basketball/player/_/id/3947247/jd-miller">JD Miller</a></td><td>F</td><td>6-8</td><td>235</td><td>FR</td><td>Dallas, TX</td></tr><tr class="evenrow"><td class="sortcell">20</td><td><a href="http://espn.go.com/mens-college-basketball/player/_/id/3133624/dalton-dry">Dalton Dry</a></td><td>G</td><td>6-3</td><td>195</td><td>SO</td><td>Fort Worth, TX</td></tr><tr class="oddrow"><td class="sortcell">23</td><td><a href="http://espn.go.com/mens-college-basketball/player/_/id/57090/devonta-abron">Devonta Abron</a></td><td>F</td><td>6-8</td><td>260</td><td>SR</td><td>Dallas, TX</td></tr><tr class="evenrow"><td class="sortcell">32</td><td><a href="http://espn.go.com/mens-college-basketball/player/_/id/66151/karviar-shepherd">Karviar Shepherd</a></td><td>F</td><td>6-10</td><td>230</td><td>JR</td><td>Dallas, TX</td></tr><tr class="oddrow"><td class="sortcell">33</td><td><a href="http://espn.go.com/mens-college-basketball/player/_/id/61360/chris-washburn">Chris Washburn</a></td><td>F</td><td>6-8</td><td>240</td><td>JR</td><td>Grand Prairie, TX</td></tr><tr class="evenrow"><td class="sortcell">34</td><td><a href="http://espn.go.com/mens-college-basketball/player/_/id/3133626/kenrich-williams">Kenrich Williams</a></td><td>G</td><td>6-7</td><td>205</td><td>JR</td><td>Waco, TX</td></tr></table></div></div><!-- begin sponsored links -->
+<div id="sponsored" class="mod-container mod-no-footer">
+<!-- begin sp links -->
+<div style="margin: 10px 0 0 0;">
+<div class="bg-opaque mod-outbrain mod-no-border">
+<div class="mod-content">
+<div class="col-full">
+<h4 class="first">SPONSORED HEADLINES</h4>
+<div class="OUTBRAIN" data-src="http://espn.go.com/ncb/team/roster?id=2628" data-widget-id="AR_23" data-ob-template="espn" ></div></div>
+</div>
+</div>
+<!-- vendor version 2: stats/players/teams-bottom:758w300h vendorId: 09stats758 sport: ncb  --></div>
+<!-- end sp links -->
+</div>
+<!-- end sponsored links -->
+
+			</div>
+			<div class="col-ad-160">
+				<!-- pageType: ncbteamroster showVendor: true--><div class="bg-opaque mod-outbrain mod-no-border">
+<div class="mod-content">
+<div class="col-full">
+<h4 class="first">SPONSORED HEADLINES</h4>
+<div class="OUTBRAIN" data-src="http://espn.go.com/ncb/team/roster?id=2628" data-widget-id="AR_28" data-ob-template="espn" ></div></div>
+</div>
+</div>
+<!-- vendor version 2: sched/stand-right:160w400h vendorId: 09storyright160 sport: ncb  -->
+			</div>
+			<div class="span-6">
+				
+	<style>
+		img.teamimage {
+			width: 50px;
+			height: 50px;
+		}
+	</style>
+	<div class="mod-container mod-team-footer"><img src="http://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/2628.png&w=100&h=100&transparent=true" class="teamimage floatleft" alt=""/><h3 class="txt-ncb-tcu">TCU Horned Frogs</h3><ul><li ><a href="/mens-college-basketball/team/_/id/2628/tcu-horned-frogs">Clubhouse</a></li><li ><a href="/mens-college-basketball/team/schedule/_/id/2628/tcu-horned-frogs">Schedule</a></li><li ><a href="/mens-college-basketball/team/stats/_/id/2628/tcu-horned-frogs">Statistics</a></li><li class="active"><a href="/mens-college-basketball/team/roster/_/id/2628/tcu-horned-frogs">Roster</a></li><li ><a href="/mens-college-basketball/team/photos/_/id/2628/tcu-horned-frogs">Photos</a></li><li  onclick="this.href=this.href+'?gcid=C12289x453&keyword=TCU+Horned+Frogs+Basketball+Nav'" target="_blank"><a href="http://www.stubhub.com/tcu-basketball-tickets/?gcid=C12289x453&keyword=TCU+Horned+Frogs+Basketball+Nav">Tickets</a></li><li ><a href="http://www.dickssportinggoods.com/category/index.jsp?categoryId=15572786&camp=Part:ESPNpart::ncbclubhousenav:TCUHornedFrogs" rel="nofollow">Shop</a></li></ul></div>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="clear"></div>
+
+</div>
+<script type="text/javascript">
+
+			// load new edition settings
+			var espn = espn || {};
+			espn.i18n = espn.i18n || {};
+			espn.i18n.lang = "en";
+			espn.i18n.siteId = "1";
+			espn.i18n.site = "espn";
+			espn.i18n.editionKey = "espn-en";
+			espn.i18n.personalization = true;
+			espn.i18n.country = "us";
+			espn.i18n.domain = "espn.go.com";
+			espn.i18n.searchUrl = "http://search.espn.go.com/",
+			espn.i18n.temperature = {scale: "fahrenheit", symbol: "&deg; F" };
+			espn.i18n.facebook = {appId: "116656161708917", locale: "en_US" };
+			espn.i18n.outbrain = {mobile: {compliantId: "MB_4", nonCompliantId: "MB_5"},
+									desktop: {compliantId: "AR_15", nonCompliantId: "AR_12"},
+									video: {mobile: {compliantId: "MB_6"}, desktop: {compliantId: "AR_16"}},
+									recap: {mobile: {compliantId: "MB_9"}, desktop: {compliantId: "AR_30"}}  };
+			espn.i18n.betting = {show: true, provider: ""};
+			espn.i18n.ticketsEnabled = true;
+			espn.i18n.translations = {};
+			espn.i18n.environment = "prod";
+			espn.i18n.sportBranding = {"cricket":"logo-uk-cricinfo.png","soccer":"logo-uk-fc.png","soccer":"logo-uk-scrum.png","ncaaw":"ESPNcom-powerby-espnw.png"};
+			espn.i18n.sportToUrl = {"cricket":"http://espncricinfo.com","soccer":"http://www.espnfc.com","ncaaw":"http://espnw.com"};
+			espn.i18n.showWatch = true;
+			
+			espn.i18n.showFCContent = false;
+			espn.i18n.showInsider = true;
+			espn.i18n.indexAutoStart = false;
+			espn.i18n.sportReplacements = {};
+
+			espn.i18n.uriRewrites = {"paramKeys":{"toEdition":{},"toEnglish":{}},"pathSegments":{"toEdition":{},"toEnglish":{}},"roots":{"toEdition":{"/endurance/":"/sports/endurance/","/horse/":"/horse-racing/","/los-angeles/":"/losangeles/","/nascar/":"/racing/nascar/","/ncaa/":"/college-sports/","/ncb/":"/mens-college-basketball/","/ncf/":"/college-football/","/ncw/":"/womens-college-basketball/","/new-york/":"/newyork/","/oly/":"/figure-skating/","/onenacion/":"/espn/onenacion/","/rpm/":"/racing/","/womenbb/":"/sports/womenbb/"},"toEnglish":{"/college-football/":"/ncf/","/college-sports/":"/ncaa/","/cycling/":"/oly/","/espn/onenacion/":"/onenacion/","/figure-skating/":"/oly/","/gymnastics/":"/oly/","/horse-racing/":"/horse/","/losangeles/":"/los-angeles/","/mens-college-basketball/":"/ncb/","/newyork/":"/new-york/","/olympics/":"/oly/","/racing/":"/rpm/","/racing/nascar/":"/nascar/","/skiing/":"/oly/","/sports/endurance/":"/endurance/","/sports/horse/":"/horse/","/sports/womenbb/":"/womenbb/","/womens-basketball/":"/womenbb/","/womens-college-basketball/":"/ncw/"}},"urls":{"toEdition":{},"toEnglish":{}},"paramValues":{"toEdition":{},"toEnglish":{}}};
+
+			try {
+				//find way to double encode
+				var translations = {"removedFromYourFavorites":"<p>You've removed<\/p><h1>${title}<\/h1>${subTitle}<p>as a suggested favorite<\/p>","preferences.sport_labels.700":"Barclays Premier League","newsletters":"Newsletters","heliumdown":"Login Temporarily Unavailable","preferences.sport_labels.850":"Tennis","no":"No","pageTitle.Scores_%{leagueOrSport}":"${leagueOrSport} Scores","score":"Score","preferences.sport_labels.46":"NBA","favoritesmgmt.manualSortSelected":"You have chosen to manually order how your favorites will appear across ESPN products. At any time, you may return to having ESPN order your favorites by selecting the \"Auto\" option.","favoritesmgmt.favoriteEntity":"${entity} - Favorite","preferences.sport_labels.41":"NCAAM","manageSettingInPersonalSettings":"You can manage this setting in the future under your <a href=\"#\">Personal Settings<\/a>","hide":"Hide","search":"Search","preferences.sport_labels.1700":"Track and Field","welcomeToESPN":"Welcome to the new ESPN.com","tweet":"Tweet","to_be_determined.abbrev":"TBD","favoriteadded":"Favorite Added","over/under.abbrev":"O/U","preferences.sport_labels.8300":"College Sports","move":"Move","preferences.sport_labels.5501":"FIFA Club World Cup","preferences.sport_labels.3700":"Olympic Sports","alert":"Alert","preferences.sport_labels.8319":"Snooker","favoritesmgmt.confirmHideFavorite":"Hide this from my favorites?","preferences.sport_labels.8318":"Darts","preferences.sport_labels.59":"WNBA","position.abbrev":"POS","favoritesmgmt.alertType":"Alert Type","preferences.sport_labels.54":"NCAAW","createAccount":"Sign Up","viewall":"View All","favoritesmgmt.suggestedHeader":"Suggestions for your location","home":"Home","footerText":"ESPN Internet Ventures. <a href=\"http://disneytermsofuse.com/\" rel=\"nofollow\">Terms of Use<\/a>, <a href=\"http://disneyprivacycenter.com/\" rel=\"nofollow\">Privacy Policy<\/a>, <a href=\"https://disneyprivacycenter.com/notice-to-california-residents/\" rel=\"nofollow\">Your California Privacy Rights<\/a>, <a href=\"https://disneyprivacycenter.com/kids-privacy-policy/english/\">Children's Online Privacy Policy<\/a> and <a href=\"http://preferences-mgr.truste.com/?type=espn&affiliateId=148\">Interest-Based Ads<\/a> are applicable to you. All rights reserved.<\/span><span class=\"link-text-short\">Footer<\/span>","remove":"Remove","preferences.sport_labels.3918":"English FA Cup","preferences.sport_labels.28":"NFL","preferences.sport_labels.3301":"MMA","opponent.abbrev":"OPP","preferences.sport_labels.23":"NCAAF","preferences.sport_labels.1200":"Horse Racing","pop-out":"Pop-out","inprogress":"In Progress","connectedfacebook":"Connected to Facebook","manageMy":"Manage my","disableVideoDockingPermanently":"Disable video docking permanently","preferences.sport_labels.3520":"Poker","Soccer":"Football","suggested":"Suggested","insider.pickcenter.login_message":"To get exclusive PickCenter analysis, you must be an ESPN Insider","preferences.sport_labels.3920":"English Capital One Cup","yes":"Yes","register":"Register","preferences.sport_labels.1000":"Boxing","preferences.sport_labels.33":"CFL","preferences.sport_labels.8098":"X Games","favorites.tooManyTeamsToAdd":"Maximum favorite teams limit reached. Please remove at least one team prior to adding additional teams.","Soccer Scores":"Football Scores","confirm":"Confirm","comments":"Comments","viewAllResultsBySearchTerm":"View all results for '${search_term}'","insiderSubscription":"Insider Subscription","favoritesmgmt.suggestedHeaderReset":"Suggestions","purse":"Purse","undo":"Undo","manageFavoritesSignIn":"To manage favorites please sign-in or create an ESPN account","sports":"Sports","show":"Show","cancel":"Cancel","accountInformation":"Account Information","preferences.sport_labels.2030":"Formula 1","resize":"Resize","nflBye":"Bye","close":"Close","redesignWelcomeText":"We've redesigned the site with some new and exciting features. You have been selected as part of a limited set of fans who get to experience our new site and give it feedback before it launches!","favoritesmgmt.reorderSports":"Reorder Sports","scores":"Scores","thingsHaveChanged":"As you may notice, things have definitely changed","favoritesmgmt.noFavorites":"You have not chosen any favorites yet","preferences.sport_labels.3170":"College Sports","thereAreNoEventsByDisplayNameByDate":"There are no ${displayName} events for ${readableDate}","signOut":"Log Out","videoSettings":"Video Settings","favorites.draftingNow":"Drafting Now","noTeamsInFavorites":"No teams in your favorites yet","preferences.sport_labels.90":"NHL","enter":"Enter","preferences.sport_labels.2020":"NASCAR","favorites":"Favorites","welcometext":"Welcome","email":"Email","favorites.streakLabel":"Current Streak:","favoritesmgmt.sportTeam":"${sportLabel} Team","pts":"Pts","preferences.sport_labels.10":"MLB","preferences.sport_labels.200":"Cricket","preferences.sport_labels.1300":"Cycling","preferences.sport_labels.775":"UEFA Champions League","preferences.sport_labels.300":"Rugby","today":"Today","preferences.sport_labels.776":"UEFA Europa League","add":"Add","preferences.sport_labels.8367":"esports","videoDockingDisabled":"Video docking disabled","connectfacebook":"Connect with Facebook","facebook.conversation.account_policy":"Use a <a href=\"https://www.facebook.com/r.php\" rel=\"nofollow\">Facebook account<\/a> to add a comment, subject to Facebook's <a href=\"https://www.facebook.com/policies/\" rel=\"nofollow\">Terms of Service<\/a> and <a href=\"https://www.facebook.com/about/privacy/\" rel=\"nofollow\">Privacy Policy<\/a>. Your Facebook name, photo &amp; other personal information you make public on Facebook will appear with your comment, and may be used on ESPN's media platforms. <a href=\"http://espn.go.com/community/story/_/id/8756098/espn-facebook-comments-faq\">Learn more<\/a>.","earnings":"Earnings","preferences.sport_labels.781":"European Championship","addSomeForQuickAccess":"Add some for quick access","preferences.sport_labels.2000":"Racing","preferences.sport_labels.2040":"IndyCar","activateInsider":"Activate Insider","favoritesmgmt.noSuggestedFavorites":"Additional Suggested Favorites are not available at this time","favoritesmgmt.confirmRemoveFavorite":"Remove Favorite?","addfavorite":"Add Favorite","signIn":"Log In","addFavorites":"Add favorites","preferences.sport_labels.600":"Soccer","preferences.sport_labels.1106":"Golf"};
+				if(Object.keys(translations).length > 0) {
+					espn.i18n.translations = translations;
+				}
+			} catch (err) {
+				window.console.log('Error in espn.i18n loading translations', err);
+			}
+
+			espn.i18n.dateTime = {
+				dateFormats: {
+					time1: "h:mm A",
+					date1: "MMM D, YYYY",
+					date2: "M/D/YYYY",
+					date3: "MM/DD/YYYY",
+					date4: "MMDDYYYY",
+					date5: "MMMM Do YYYY",
+					date6: "dddd, MMMM Do YYYY",
+					date7: "ddd, MMM D YYYY",
+					date8: "M/D",
+					date9: "ddd",
+					date10: "dddd, MMMM Do",
+					date11: "ddd, MMMM D",
+					date12: "MMMM D, YYYY",
+					date13: "dddd, M/D",
+					date14: "MMM D",
+					date15: "ddd, M/D"
+
+				},
+
+				
+				firstDayOfWeek: "Sunday",
+				dayNamesShort: ["Su","Mo","Tu","We","Th","Fr","Sa"],dayNamesMedium: ["Sun","Mon","Tues","Wed","Thu","Fri","Sat"],
+
+dayNamesLong: ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+
+monthNamesShort: ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
+
+monthNamesLong: ["January","February","March","April","May","June","July","August","September","October","November","December"]
+			};
+
+		</script>
+		<div id="global-viewport" data-behavior="global_nav_condensed global_nav_full"  class =" interior" >
+
+<nav id="global-nav-mobile" data-loadtype="server">
+</nav><div class="menu-overlay-primary"></div><div id="header-wrapper" data-behavior="global_header">
+<header id="global-header" class="espn-en user-account-management">
+    <div class="menu-overlay-secondary"></div>
+
+	<div class="container">
+		<a id="global-nav-mobile-trigger" href="#" data-route="false"><span>Menu</span></a><h1><a class="null" href="http://espn.go.com"  name="&lpos=sitenavdefault&lid=sitenav_main-logo">ESPN</a></h1>
+		<ul class="tools">
+			<li class="search">
+<a href="#" class="icon-font-after icon-search-solid-after" id="global-search-trigger"></a>
+<div id="global-search" class="global-search">
+	<input type="text" class="search-box" placeholder="Search Sports, Teams or Players..."><input type="submit" class="btn-search">
+</div></li>
+			
+			<li class="user" data-behavior="favorites_mgmt"></li>
+			
+			<li><a href="#" id="global-scoreboard-trigger" data-route="false">Scores</a></li>
+		</ul>
+		
+
+	</div>
+
+	
+<nav id="global-nav" data-loadtype="server">
+<ul itemscope="" itemtype="http://www.schema.org/SiteNavigationElement">
+<li itemprop="name"><a itemprop="url" href="/nfl/">NFL</a></li><li itemprop="name"><a itemprop="url" href="/nba/">NBA</a></li><li itemprop="name"><a itemprop="url" href="/mlb/">MLB</a></li><li itemprop="name"><a itemprop="url" href="/mens-college-basketball/">NCAAM</a></li><li itemprop="name"><a itemprop="url" href="http://espnfc.com/">Soccer</a></li><li itemprop="name"><a itemprop="url" href="/nhl/">NHL</a></li><li itemprop="name"><a itemprop="url" href="#">&hellip;</a><div><ul class="split"><li itemprop="name"><a itemprop="url" href="/esports/">esports</a></li><li itemprop="name"><a itemprop="url" href="/college-football/">NCAAF</a></li><li itemprop="name"><a itemprop="url" href="/racing/nascar/">NASCAR</a></li><li itemprop="name"><a itemprop="url" href="/golf/">Golf</a></li><li itemprop="name"><a itemprop="url" href="/tennis/">Tennis</a></li><li itemprop="name"><a itemprop="url" href="/racing/">Racing</a></li><li itemprop="name"><a itemprop="url" href="/olympics/">Olympics</a></li><li itemprop="name"><a itemprop="url" href="http://espn.go.com/extra/specialolympics/">Special Olympics</a></li><li itemprop="name"><a itemprop="url" href="/college-sports/">NCAA</a></li><li itemprop="name"><a itemprop="url" href="/womens-basketball/">NCAAW</a></li><li itemprop="name"><a itemprop="url" href="/horse-racing/">Horse</a></li><li itemprop="name"><a itemprop="url" href="/mma/">MMA</a></li><li itemprop="name"><a itemprop="url" href="/boxing/">Boxing</a></li><li itemprop="name"><a itemprop="url" href="/womens-basketball/">WNBA</a></li><li itemprop="name"><a itemprop="url" href="http://espn.go.com/college-sports/football/recruiting/">RN FB</a></li><li itemprop="name"><a itemprop="url" href="http://espn.go.com/college-sports/basketball/recruiting/index">RN BB</a></li><li itemprop="name"><a itemprop="url" href="http://espncricinfo.com/">Cricket</a></li><li itemprop="name"><a itemprop="url" href="http://www.espnscrum.com/">Rugby</a></li><li itemprop="name"><a itemprop="url" href="http://xgames.com/">X Games</a></li><li itemprop="name"><a itemprop="url" href="/chalk/">Chalk</a></li><li itemprop="name"><a itemprop="url" href="/endurance/">Endurance</a></li><li itemprop="name"><a itemprop="url" href="http://www.tsn.ca/cfl">CFL</a></li><li itemprop="name"><a itemprop="url" href="http://espn.go.com/espys/2015/">ESPYS</a></li></ul></div></li><li class="pillar more-espn"><a href="#">More ESPN</a></li><li class="pillar fantasy"><a href="/fantasy/">Fantasy</a></li><li class="pillar listen"><a href="http://espn.go.com/espnradio/index">Listen</a></li><li class="pillar watch"><a href="http://espn.go.com/watchespn/index">Watch</a></li></ul>
+
+</nav>
+
+
+
+
+<nav id="global-nav-secondary" data-loadtype="server" >
+<div class="global-nav-container">
+<ul class="first-group"><li class="sports" itemprop="name"><span class="positioning"><a href="/mens-college-basketball/"><span class="brand-logo icon-logo icon-font-before icon-basketball-solid-before"><img src="http://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/default-team-logo-500.png&w=100&h=100"></span><span class="link-text">NCAAM</span></a></span></li><li class="sub"><a href="/mens-college-basketball/"  data-breakpoints="desktop,desktop-lg"  data-mobile="false" ><span class="link-text">Home</span><span class="link-text-short">Home</span></a></li><li class="sub"><a href="/mens-college-basketball/scoreboard" ><span class="link-text">Scores</span><span class="link-text-short">Scores</span></a></li><li class="sub"><a href="/blog/collegebasketballnation" ><span class="link-text">CBB Nation</span><span class="link-text-short">CBB Nation</span></a></li><li class="sub"><a href="http://espn.go.com/mens-college-basketball/rankings"  data-mobile="false" ><span class="link-text">Rankings</span><span class="link-text-short">Rankings</span></a></li><li class="sub"><a href="http://espn.go.com/mens-college-basketball/story/_/id/14658737/2016-ncaa-tournament-schedule-key-dates" ><span class="link-text">NCAA Tournament</span><span class="link-text-short">NCAA Tournament</span></a></li><li class="sub"><a href="http://espn.go.com/mens-college-basketball/teams"  data-mobile="false" ><span class="link-text">Teams</span><span class="link-text-short">Teams</span></a></li><li class="sub"><a href="http://espn.go.com/mens-college-basketball/standings"  data-mobile="false" ><span class="link-text">Standings</span><span class="link-text-short">Standings</span></a></li><li class="sub"><a href="http://espn.go.com/mens-college-basketball/schedule" ><span class="link-text">Schedule</span><span class="link-text-short">Schedule</span></a></li><li class='sub sub-more-nolink sub-more-more has-sub'><a href='#'>More</a><div><ul ><li class="sub"><a href="http://espn.go.com/mens-college-basketball/statistics"  data-mobile="false" ><span class="link-text">Stats</span><span class="link-text-short">Stats</span></a></li><li class="sub"><a href="http://espn.go.com/mens-college-basketball/story/_/page/wooden160225/utah-utes-jakob-poeltl-belongs-wooden-award-conversation"  data-mobile="false" ><span class="link-text">Wooden</span><span class="link-text-short">Wooden</span></a></li><li class="sub"><a href="http://espn.go.com/college-sports/basketball/recruiting/index"  data-mobile="false" ><span class="link-text">Recruiting</span><span class="link-text-short">Recruiting</span></a></li><li class="sub"><a href="http://espn.go.com/mens-college-basketball/lines"  data-mobile="false" ><span class="link-text">Daily Lines</span><span class="link-text-short">Lines</span></a></li><li class="sub insider"><a href="http://insider.espn.go.com/insider/pickcenter/index?sport=ncb"  data-mobile="false" ><span class="link-text">PickCenter</span><span class="link-text-short">PickCenter</span></a></li><li class="sub"><a href="http://espn.go.com/espn/dickvitale/index"  data-mobile="false" ><span class="link-text">Dick Vitale</span><span class="link-text-short">Dick Vitale</span></a></li><li class="sub external"><a href="http://www.dickssportinggoods.com/category/index.jsp?categoryId=15504456&camp=Part:ESPNPart_NCBNav:Shop:SubNavLink"  data-nofollow="true" ><span class="link-text">Shop</span><span class="link-text-short">Shop</span></a></li><li class="sub external"><a href="http://www.stubhub.com/ncaa-basketball-tickets/"  data-mobile="false" ><span class="link-text">Tickets</span><span class="link-text-short">Tickets</span></a></li></ul></div></li></ul>
+	<script type="text/javascript">
+		var espn = espn || {};
+		espn.nav = espn.nav || {};
+		espn.nav.navId = 11929946;
+		espn.nav.isFallback = false;
+		
+		
+
+	</script>
+</div>
+</nav>
+
+</header></div></div></div>
+<!-- end content -->
+</div>
+<!-- end subheader -->
+<!-- begin footer -->
+<div id="footer" class="container">
+<script type="text/javascript">
+void 0!==window.jQuery&&jQuery(document).on("track.search",function(n,o,c,e,t){"function"==typeof t&&t.call()});
+
+//<![CDATA[
+var link = window.location;
+var bugText = '<a href="#" onclick="window.open(\'http://dynamic.espn.go.com/espn/bugs?url=' + escape(link) + '\', \'Bugs\',\'noresizable,noscrollbars,height=400,width=400\');">Report a Bug</a> | ';
+//]]>
+</script>
+<span style="font-weight:bold;">ESPN.com:</span> <a href="http://espn.go.com/espn/news/story?page=help/index">Help</a> | <a href="http://espnmediazone.com/us/" rel="nofollow">Press</a> | <a href="http://www.espncms.com/Advertise-on-ESPN.aspx" rel="nofollow">Advertise on ESPN.com</a> | <a href="http://www.espncms.com" rel="nofollow">Sales Media Kit</a> | <a href="http://preferences.truste.com/2.0/?type=espn&affiliateId=148" onclick="window.open('http://preferences.truste.com/2.0/?type=espn&affiliateId=148','popup','width=986,height=878,scrollbars=yes,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false">Interest-Based Ads</a> | <script type="text/javascript">document.write(bugText);</script><a href="http://espn.go.com/espn/corrections">Corrections</a> | <a href="http://espn.go.com/espn/news/story?page=contact/index">Contact Us</a> | <a href="http://espn.go.com/espn/sitemap">Site Map</a> | <a href="http://espncareers.com">Jobs at ESPN</a> | <!--a href="http://corporate.disney.go.com/corporate/sourcing.html" rel="nofollow"><span style="font-weight:bold;">Supplier Information</span></a--><a href="http://go.com">Go.com</a><br/>&copy;  ESPN Internet Ventures. <a href="http://disneytermsofuse.com/" rel="nofollow">Terms of Use</a>, <a href="http://disneyprivacycenter.com/" rel="nofollow">Privacy Policy</a>, <a href="https://disneyprivacycenter.com/notice-to-california-residents/" rel="nofollow">Your California Privacy Rights</a>,  <a href="https://disneyprivacycenter.com/kids-privacy-policy/english/">Children's Online Privacy Policy</a> and <a href="http://preferences-mgr.truste.com/?type=espn&affiliateId=148">Interest-Based Ads</a> are applicable to you.  All rights reserved.
+
+<!--
+<a href="http://www.espnshop.com/" onClick="location.href('http://log.go.com/log?srvc=sz&guid=73B641A0-6660-4EFC-B8FF-9DE23E8CD9BD&drop=0&addata=3374:65:478847:65&a=1&goto=http://www.espnshop.com/');return false">Shop</a>
+--></div>
+<!-- end footer -->
+<!--[if lte IE 9]></div><![endif]-->
+</div>
+<!-- end bg-elements -->
+<script type="text/javascript" src="http://a.espncdn.com/legacy/transitionalHeader/1.0.8/js/nav-external.js"></script>
+<script type="text/javascript" src="http://a.espncdn.com/combiner/c/01012015219?js=espn-ads-external.js"></script>
+
+
+
+<!-- SiteCatalyst code version: H.21.3 Copyright 1997-2010 Omniture, Inc. http://www.omniture.com -->
+<script type="text/javascript">
+	var undef = "undefined";
+	var s_account="wdgespcom";
+	var omniSite = "espn";
+	var omniPageName = "espn:ncb:teams:roster:tcu+horned+frogs";
+	
+	var insiderStatus = ""
+	,anGen = ""
+	,anYear = ""
+	,anDateString = ""
+	,anLoginStatus = ""
+	,callOmniture = function(){
+		/*-- core story s_omni properties --*/
+		if (typeof anCV != "undefined"){anParseLoginBarInfo(anCV);}
+		s_omni.pageName="ncb:teams:roster:tcu+horned+frogs";
+		s_omni.server = window.location.host; // Server from the Host
+		s_omni.channel = "ncb";
+		s_omni.prop1 = "espn";
+		s_omni.prop4 = "roster";
+		s_omni.prop5 = "ncb:teams";
+		s_omni.prop11 = (insiderStatus !== null) ? insiderStatus + ":premium-no" : "premium-no";
+		s_omni.prop17 = "en";
+		s_omni.prop32 = "ncb:teamid=2628-tcu+horned+frogs";
+		s_omni.hier1 = "ncb:teams:roster:tcu+horned+frogs";
+		s_omni.eVar7 = anYear + ":" + anGen + ":" + anLoginStatus + ":" + s_omni.prop11 + ":";
+		s_omni.eVar9 = "en";
+		s_omni.eVar13 = "ncb:teams:roster:tcu+horned+frogs";
+		s_omni.eVar19 = "basketball";
+		s_omni.eVar21 = "ncb";
+		
+		if (s_omni.prop11=="anonymous:premium-yes" || s_omni.prop11=="insider-no:premium-yes" && typeof s_omni.prop4!="undefined" &&
+			(s_omni.prop4=="story" || s_omni.prop4=="blog")) {
+			if (typeof s_omni.events != "undefined" && s_omni.events!="") {
+				s_omni.events = s_omni.events+",event8";
+			} else { 
+				s_omni.events="event8";
+			}
+		}
+		
+		s_omni.prop38 = "Desktop";
+		s_omni.eVar38 = "D=c38";
+		
+		
+		anVersion = "_11apr14_v2_0_r5_";
+		
+		/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+		
+		var s_code = s_omni.t();
+		if(s_code) {
+			var sci = new Image(1,1);
+			sci.onload = function() {console.log("loaded no append")};
+			sci.src = s_code;
+		}
+		
+		
+		// init blueKai
+		if(espn && espn.track && typeof espn.track.bluekai === "function") {
+			espn.track.bluekai();
+		}
+		
+	};	
+</script>
+
+
+
+<script type="text/javascript">
+	if (typeof(s_omni) === 'undefined') {
+		(function($) {
+			// we want to load the analytics files from the cache if possible - so, let's use full $.ajax() calls
+			$.ajax({
+				type:'GET',
+				url: 'http://a.espncdn.com/combiner/c?js=analytics/sOmni.js,analytics/analytics.js,analytics/externalnielsen.js&v=15',
+				dataType: 'script',
+				cache: true,
+				success: function() {
+					var lgSrc;
+					if(typeof anCV !== undef && anCV === '' && $('#form-memberarea').length > 0) {
+						lgSrc = 'https://r.espn.go.com/members/util/getUserInfo?cb=runOmnitureIndependently&regType=true';
+						$.getScript(lgSrc); // we don't want this to be cached - so we'll use the $.getScript() method
+					} else {
+						callOmniture();
+					}
+				}
+			});
+
+		}(jQuery));
+	}
+</script>
+
+<!-- End SiteCatalyst code version: H.21. -->
+
+
+<!-- Begin comScore Tag -->
+<script type="text/javascript">
+	if (typeof(jQuery) !== 'undefined') {
+		jQuery(function($) {
+			if(typeof window._comscore === 'undefined') {
+				window._comscore = window._comscore || [];
+				window._comscore.push({ c1: "2", c2: "3000005" });
+				jQuery.getScript((document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js");
+			}
+		});
+	}
+</script>
+<!-- End comScore Tag -->
+<!-- Begin blueKai Tag -->
+<script type="text/javascript">
+	espn = window.espn || {};
+	espn.track = espn.track || {};
+	espn.track.bluekai = function(){
+		window.bk_async = function(){
+		 	try{
+				if(typeof s_omni !== 'undefined'){
+					bk_addPageCtx("pageName", (typeof s_omni.pageName !== 'undefined' ? s_omni.pageName : ''));
+					bk_addPageCtx("channel", (typeof s_omni.channel !== 'undefined' ? s_omni.channel : ''));
+					bk_addPageCtx("eVar34", (typeof s_omni.prop45 !== 'undefined' ? s_omni.prop45 : ''));
+					bk_addPageCtx("events", (typeof s_omni.events !== 'undefined' ? s_omni.events : ''));
+					bk_addPageCtx("prop1", (typeof s_omni.prop1 !== 'undefined' ? s_omni.prop1 : ''));
+					bk_addPageCtx("swid", (espn.core && typeof espn.core.SWID !== 'undefined' ? espn.core.SWID : ''));
+					bk_addPageCtx("prop4", (typeof s_omni.prop4 !== 'undefined' ? s_omni.prop4 : ''));
+					bk_addPageCtx("prop9", (typeof s_omni.prop9 !== 'undefined' ? s_omni.prop9 : ''));
+					bk_addPageCtx("prop23", (typeof s_omni.prop23 !== 'undefined' ? s_omni.prop23 : ''));
+					bk_addPageCtx("prop25", (typeof s_omni.prop25 !== 'undefined' ? s_omni.prop25 : ''));
+					bk_addPageCtx("prop26", (typeof s_omni.prop26 !== 'undefined' ? s_omni.prop26 : ''));
+					bk_addPageCtx("prop30", (typeof s_omni.prop30 !== 'undefined' ? s_omni.prop30 : ''));
+					bk_addPageCtx("prop32", (typeof s_omni.prop32 !== 'undefined' ? s_omni.prop32 : ''));
+					bk_addPageCtx("prop45", (typeof s_omni.prop45 !== 'undefined' ? s_omni.prop45 : '')); // set for tv channels, which we don't have right now
+				}
+			}
+			catch(e){}
+			window.bk_allow_multiple_calls = true;
+			window.bk_use_multiple_iframes = true;
+			window.bk_pixel_url = 'https://tags.bluekai.com/';
+			window.bk_pixel_secure = 'https://tags.bluekai.com/';
+			if(window.BKTAG) { window.BKTAG.doTag(24667, 10); }
+		};
+		if(espn.track.bluekai.init === undefined){
+			var scripts = document.getElementsByTagName('script')[0];
+			var s = document.createElement('script');
+			s.async = true;
+			s.src = 'https://tags.bkrtx.com/js/bk-coretag.js';
+			scripts.parentNode.insertBefore(s, scripts);
+			espn.track.bluekai.init = true;
+		} else {
+			window.bk_async();
+		}
+	};
+</script>
+<!-- End blueKai Tag -->
+
+		<script>
+		var _sf_async_config={
+			"uid":22222,
+			"domain":"espn.go.com",
+			"pingServer":"pespn.chartbeat.net",
+			"useCanonical":true,
+			"useSubDomains":false,
+			"sections":"ncb",
+			"authors":"roster"
+		};
+		if (typeof(ad_site) !== 'undefined') { _sf_async_config.zone = ad_site; }
+
+		// load both chartbeat_pub and chartbeat_video
+		(function () {
+			function a() {
+				window._sf_endpt = (new Date()).getTime();
+
+				var cbDomain = (("https:"==document.location.protocol)?"https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/":"http://static.chartbeat.com/");
+
+				var c = document.createElement("script");
+				c.setAttribute("language","javascript");
+				c.setAttribute("type","text/javascript");
+				c.setAttribute("src", cbDomain+"js/chartbeat_pub.js");
+				document.body.appendChild(c);
+
+				if(typeof StrategyInterface !== 'undefined' && (typeof espn !== 'undefined' && typeof espn.video !== 'undefined')){
+					var e = document.createElement("script");
+					e.setAttribute("language",	"javascript");
+					e.setAttribute("type", "text/javascript");
+					e.setAttribute("src", cbDomain+"js/chartbeat_video.js");
+					document.body.appendChild(e);
+				}
+			}
+			var b = window.onload;
+			window.onload = (typeof window.onload != "function") ? a : function () { b(); a() }
+		})();
+		//(function(){function a(){window._sf_endpt=(new Date()).getTime();var c=document.createElement("script");c.setAttribute("language","javascript");c.setAttribute("type","text/javascript");c.setAttribute("src",(("https:"==document.location.protocol)?"https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/":"http://static.chartbeat.com/")+"js/chartbeat_pub.js");document.body.appendChild(c)}var b=window.onload;window.onload=(typeof window.onload!="function")?a:function(){b();a()}})();
+		</script>
+	
+<!-- dynamic logic: safecount -->
+<script src="http://content.dl-rms.com/rms/mother/508/nodetag.js"></script>
+
+<!-- start cnt_code -->
+<!-- end cnt_code -->
+<script type="text/javascript">
+   var isInIFrame = (window.location != window.parent.location) ? true : false;
+   if(isInIFrame){ if(document.referrer){ if(document.referrer.indexOf(".go.com")==-1){ top.location.href=self.location.href; } } }
+</script>
+
+<script type='text/javascript'>
+  //<![CDATA[
+    (function(){
+    window.gravityInsightsParams = {
+      'type': 'content',
+      'action': '',
+      'site_guid': '9a41401e9b7c945344e001ee7f23031e'
+    };
+    var b,c;b="https:"===document.location.protocol?"https://b-ssl.grvcdn.com/moth-min.js":"http://b.grvcdn.com/moth-min.js";window.grvMakeScript=function(d){var a;a=document.createElement("script");a.type="text/javascript";a.async=!0;a.src=d;return a};c=document.getElementsByTagName("script")[0];b&&c.parentNode.insertBefore(window.grvMakeScript(b),c);})();
+  //]]>
+</script></body>
+</html>

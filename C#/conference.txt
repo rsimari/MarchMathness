@@ -1,0 +1,415 @@
+America East
+Albany
+Binghamton
+Hartford
+Maine
+UNH
+Stony Brook
+UMass Lowell
+UMBC
+Vermont 
+
+American
+Cincinnati
+UConn
+ECU
+Houston
+Memphis
+SMU
+USF
+Temple
+Tulane
+Tulsa
+UCF
+
+Atlantic 10
+Davidson
+Dayton
+Duquesne
+Fordham
+George Mason
+G Washington
+La Salle
+UMass
+URI
+Richmond
+Saint Joe's
+Saint Louis
+St Bonaventure
+VCU 
+
+ACC
+Boston College
+Clemson
+Duke
+FSU
+Georgia Tech
+Louisville
+Miami (FL) 
+NC State
+UNC
+Notre Dame
+Pitt
+Syracuse
+UVA
+Virginia Tech
+Wake Forest
+
+Atlantic Sun
+FGCU
+Jacksonville
+Kennesaw St
+Lipscomb
+NJIT
+North Florida
+USC Upstate
+Stetson
+
+Big 12
+Baylor
+Iowa State
+Kansas
+Kansas State
+Oklahoma
+Oklahoma State
+TCU
+Texas
+Texas Tech
+West Virginia 
+
+Big East
+Butler
+Creighton
+DePaul
+Georgetown
+Marquette
+Providence
+Seton Hall
+St John's
+Villanova
+Xavier 
+
+Big Sky
+E Washington
+Idaho
+Idaho State
+Montana
+Montana State
+North Dakota
+N Arizona
+N Colorado
+Portland State
+Sacramento St
+Southern Utah
+Weber State 
+
+Big South
+Campbell
+Charleston So
+Coast Carolina
+Gardner-Webb
+High Point
+Liberty
+Longwood
+Presbyterian
+Radford
+UNC Asheville
+Winthrop 
+
+Big Ten
+Illinois
+Indiana
+Iowa
+Maryland
+Michigan
+Michigan State
+Minnesota
+Nebraska
+Northwestern
+OSU
+Penn State
+Purdue
+Rutgers
+Wisconsin 
+
+Big West
+Cal Poly
+CS Fullerton
+CS Northridge
+Hawaii
+LBSU
+UC Davis
+UC Irvine
+UC Riverside
+UCSB 
+
+Colonial
+Charleston
+Delaware
+Drexel
+Elon
+Hofstra
+JMU
+Northeastern
+Towson
+UNC-Wilmington
+William & Mary
+
+Conference USA
+Charlotte
+FAU
+FIU
+LA Tech
+Marshall
+Mid Tennessee
+North Texas
+Old Dominion
+Rice
+Southern Miss
+UTSA
+UAB
+UTEP
+W Kentucky 
+
+Horizon
+Cleveland State
+Detroit
+Green Bay
+Milwaukee
+N Kentucky
+Oakland
+UIC
+Valparaiso
+Wright State
+Youngstown St 
+
+Ivy
+Brown
+Columbia
+Cornell
+Dartmouth
+Harvard
+Penn
+Princeton
+Yale 
+
+MAAC
+Canisius
+Fairfield
+Iona
+Manhattan
+Marist
+Monmouth
+Niagara
+Quinnipiac
+Rider
+St Peter's
+Siena 
+
+Mid-American
+Akron
+Ball State
+Bowling Green
+Buffalo
+Cent Michigan
+E Michigan
+Kent State
+Miami (OH) 
+N Illinois
+Ohio
+Toledo
+W Michigan 
+
+MEAC
+Bethune-Cookman
+Coppin State
+Delaware State
+Florida A&M
+Hampton
+Howard
+MD-E Shore
+Morgan State
+Norfolk State
+NC A&T
+NC Central
+Savannah State
+S Carolina St 
+
+Missouri Valley
+Bradley
+Drake
+Evansville
+Illinois State
+Indiana State
+Loyola (CHI) 
+Missouri State
+Northern Iowa
+S Illinois
+Wichita State 
+
+Mountain West
+Air Force
+Boise State
+Colorado State
+Fresno State
+Nevada
+New Mexico
+San Diego State
+San Jose State
+UNLV
+Utah State
+Wyoming 
+
+Northeast
+Bryant
+Cent Conn St
+Fair Dickinson
+LIU Brooklyn
+Mt St Mary's
+Robert Morris
+Sacred Heart
+St Francis (BKN) 
+St Francis (PA) 
+Wagner 
+
+Ohio Valley
+Austin Peay
+Belmont
+E Illinois
+E Kentucky
+Jacksonville St
+Morehead State
+Murray State
+SIU ED
+SE Missouri St
+Tennessee St
+Tenn Tech
+UT Martin 
+
+Pac-12
+Arizona
+Arizona State
+Cal
+Colorado
+Oregon
+Oregon State
+Stanford
+UCLA
+USC
+Utah
+Washington
+Washington St
+Patriot League
+
+American
+Army
+Boston U
+Bucknell
+Colgate
+Holy Cross
+Lafayette
+Lehigh
+Loyola (MD) 
+Navy
+
+SEC
+Alabama
+Arkansas
+Auburn
+Florida
+Georgia
+Kentucky
+LSU
+Miss St
+Missouri
+Ole Miss
+South Carolina
+Tennessee
+Texas A&M
+Vanderbilt 
+
+Southern
+Chattanooga
+East Tenn St
+Furman
+Mercer
+Samford
+The Citadel
+UNC Greensboro
+VMI
+W Carolina
+Wofford 
+
+Southland
+Abil Christian
+Cent Arkansas
+Houston Baptist
+Incarnate Word
+Lamar
+McNeese State
+New Orleans
+Nicholls State
+Northwestern St
+Sam Houston
+SE Louisiana
+SF Austin
+Texas A&M-CC 
+
+SWAC
+Alabama A&M
+Alabama State
+Alcorn State
+AR-Pine Bluff
+Grambling St
+Jackson State
+Miss Valley St
+PV A&M
+Southern
+Texas Southern 
+
+Summit League
+Denver
+IPFW
+IUPUI
+North Dakota St
+Omaha
+Oral Roberts
+South Dakota
+South Dakota St
+W Illinois 
+
+Sun Belt
+Appalachian St
+Arkansas State
+AR-Little Rock
+Ga Southern
+Georgia State
+LA-Lafayette
+UL Monroe
+South Alabama
+Texas State
+Troy
+UT-Arlington 
+
+West Coast
+BYU
+Gonzaga
+Loyola Mary
+Pacific
+Pepperdine
+Portland
+Saint Mary's
+San Diego
+San Francisco
+Santa Clara
+
+WAC
+Chicago State
+CSU Bakersfield
+Grand Canyon
+New Mexico St
+Seattle
+UMKC
+UT-Rio Grande
+Utah Valley
+
