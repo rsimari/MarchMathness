@@ -18,16 +18,18 @@ namespace Basketball {
    class Team {
       private string name;
       private string conference;
-      public float margin = 0; // non conf margin
+      public float nonConfMargin = 0; // non conf margin
+      public float confMargin = 0;
       private string id;
       public float conferenceCoeff;
       private string URL;
       private string STATS_URL; // http://espn.go.com/mens-college-basketball/team/stats/_/id/ + y + /
       public int [] stats = new int [11]; // look at html for order of stats
-      private int wins = 0;
-      private int losses = 0;
+      private int wins = 0; // total wins
+      private int losses = 0; // total losses
       public int topWins = 0; // wins vs top 25
       public int nonConfWins = 0; // non conference wins
+      public int confWins = 0; // conference wins
     	private int[,] games = new int[35,4]; // games[score1, score2, W/L, Rank of Opp]
       public string[] schedule = new string[40]; // filled with teams from their schedule
       public string[] confSchedule = new string[40]; // filled with conferences they played
@@ -59,12 +61,15 @@ namespace Basketball {
          set { stats = value; }
       }
       public void getNonConf() {
-         int i;
+         int i; // margin should include 
          nonConfWins = 0;
          for (i = 1; i < wins+losses; i++)
             if (conference != confSchedule[i] && games[i,2] == 1) { // counts only wins and against non conf
-               nonConfWins++;
-               margin = margin + (games[i,0]-games[i,1]); // also gets the total margin for non conf games
+               nonConfWins++; // a non conference win
+               nonConfMargin = nonConfMargin + (games[i,0]-games[i,1]); // also gets the total margin for non conf games
+            } else if (conference == confSchedule[i] && games[i,2] == 1) {
+               confMargin = confMargin + (games[i,0]-games[i,1]);
+               confWins++;
             }
       }
       public int getConfWins() { return (wins - nonConfWins); }
@@ -307,34 +312,28 @@ namespace Basketball {
 
          Dictionary<string, float> coeff = new Dictionary<string, float>(); // dictionary iwth all athe conf coefficients
          sr = File.OpenText("conference2.txt");
-         //string key;
-/*
+         string key;
+         // makes empty dictionary of just the conferences -> 0
          for (i = 0; i < 32; i++) {
-            key = sr.ReadLine(); // team
+            key = sr.ReadLine(); // read team name
             key = key.Trim();
             coeff.Add(key, 0); // conference, coeff
          }
-*/
 
          sr.Close(); // closes conference2.txt
-         // something is messed up in these lines!
-         // puts all the conference coeff in the member variable conferenceCoeff
 
-         //foreach (Team t in teamArray) {
+         // fills dictionary with total margin for each conference
          for (i = 0; i < 10; i++) {
-            //Console.WriteLine(teamArray[i].Conference);
             if (coeff.ContainsKey(teamArray[i].Conference)) {
-               coeff[teamArray[i].Conference] += teamArray[i].margin;
+               coeff[teamArray[i].Conference] += teamArray[i].nonConfMargin;
             } else {
-               coeff.Add(teamArray[i].Conference, teamArray[i].margin);
+               coeff.Add(teamArray[i].Conference, teamArray[i].nonConfMargin);
             }
          }
 
-         //coeff.TryGetValue("Big 12", out value);
-
-         //Console.WriteLine(teamArray[0].conferenceCoeff);
+         // need to put the confCoeff in each team???? i can compare the two conferences without 
+         // putting the confCoeff as a member variable. just look it up in Coeff dictionary
          
-
          // writes to out.txt
          StreamWriter writer = new StreamWriter("out.txt");
          foreach (string x in output) {
