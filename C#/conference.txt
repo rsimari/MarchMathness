@@ -75,7 +75,7 @@ Oklahoma State
 TCU
 Texas
 Texas Tech
-West Virginia 
+West Virginia
 
 Big East
 Butler
@@ -87,7 +87,7 @@ Providence
 Seton Hall
 St John's
 Villanova
-Xavier 
+Xavier
 
 Big Sky
 E Washington
@@ -101,7 +101,7 @@ N Colorado
 Portland State
 Sacramento St
 Southern Utah
-Weber State 
+Weber State
 
 Big South
 Campbell
@@ -114,7 +114,7 @@ Longwood
 Presbyterian
 Radford
 UNC Asheville
-Winthrop 
+Winthrop
 
 Big Ten
 Illinois
@@ -130,7 +130,7 @@ OSU
 Penn State
 Purdue
 Rutgers
-Wisconsin 
+Wisconsin
 
 Big West
 Cal Poly
@@ -141,7 +141,7 @@ LBSU
 UC Davis
 UC Irvine
 UC Riverside
-UCSB 
+UCSB
 
 Colonial
 Charleston
@@ -169,7 +169,7 @@ Southern Miss
 UTSA
 UAB
 UTEP
-W Kentucky 
+W Kentucky
 
 Horizon
 Cleveland State
@@ -181,7 +181,7 @@ Oakland
 UIC
 Valparaiso
 Wright State
-Youngstown St 
+Youngstown St
 
 Ivy
 Brown
@@ -191,7 +191,7 @@ Dartmouth
 Harvard
 Penn
 Princeton
-Yale 
+Yale
 
 MAAC
 Canisius
@@ -204,7 +204,7 @@ Niagara
 Quinnipiac
 Rider
 St Peter's
-Siena 
+Siena
 
 Mid-American
 Akron
@@ -218,7 +218,7 @@ Miami (OH)
 N Illinois
 Ohio
 Toledo
-W Michigan 
+W Michigan
 
 MEAC
 Bethune-Cookman
@@ -233,7 +233,7 @@ Norfolk State
 NC A&T
 NC Central
 Savannah State
-S Carolina St 
+S Carolina St
 
 Missouri Valley
 Bradley
@@ -245,7 +245,7 @@ Loyola (CHI)
 Missouri State
 Northern Iowa
 S Illinois
-Wichita State 
+Wichita State
 
 Mountain West
 Air Force
@@ -258,7 +258,7 @@ San Diego State
 San Jose State
 UNLV
 Utah State
-Wyoming 
+Wyoming
 
 Northeast
 Bryant
@@ -270,7 +270,7 @@ Robert Morris
 Sacred Heart
 St Francis (BKN) 
 St Francis (PA) 
-Wagner 
+Wagner
 
 Ohio Valley
 Austin Peay
@@ -284,7 +284,7 @@ SIU ED
 SE Missouri St
 Tennessee St
 Tenn Tech
-UT Martin 
+UT Martin
 
 Pac-12
 Arizona
@@ -326,7 +326,7 @@ Ole Miss
 South Carolina
 Tennessee
 Texas A&M
-Vanderbilt 
+Vanderbilt
 
 Southern
 Chattanooga
@@ -338,7 +338,7 @@ The Citadel
 UNC Greensboro
 VMI
 W Carolina
-Wofford 
+Wofford
 
 Southland
 Abil Christian
@@ -353,7 +353,7 @@ Northwestern St
 Sam Houston
 SE Louisiana
 SF Austin
-Texas A&M-CC 
+Texas A&M-CC
 
 SWAC
 Alabama A&M
@@ -365,7 +365,7 @@ Jackson State
 Miss Valley St
 PV A&M
 Southern
-Texas Southern 
+Texas Southern
 
 Summit League
 Denver
@@ -376,7 +376,7 @@ Omaha
 Oral Roberts
 South Dakota
 South Dakota St
-W Illinois 
+W Illinois
 
 Sun Belt
 Appalachian St
@@ -389,7 +389,7 @@ UL Monroe
 South Alabama
 Texas State
 Troy
-UT-Arlington 
+UT-Arlington
 
 West Coast
 BYU
@@ -412,4 +412,3 @@ Seattle
 UMKC
 UT-Rio Grande
 Utah Valley
-

@@ -221,14 +221,16 @@ namespace Basketball {
 
       public void setData() {
          StreamReader sr = File.OpenText("conference.txt"); // conferences followed by their teams
-         string value, key, key2;
-         while ((value = sr.ReadLine()) != null) { // EOF, reads the conference
+         string value = "", key = "", temp;
+         while (true) { // reads the conferences
+            value = sr.ReadLine();
+            if (value == null) // EOF
+               break;
             while (true) {
                key = sr.ReadLine(); // reads the teams
-               key2 = key.Trim();
-               if (key2 == "") // read until empty line
+               if (key == "" || key == null) // read until empty line
                   break;
-               conferences.Add(key2, value); // team, conference
+               conferences.Add(key, value); // team, conference
             }   
          }
          // closes the conference.txt file
@@ -236,7 +238,7 @@ namespace Basketball {
       }
 
       public string getConf(string team) {
-         if (conferences.ContainsKey(team))
+         if (conferences.ContainsKey(team)) 
             return conferences[team];
          else return "null";
       }
@@ -276,14 +278,13 @@ namespace Basketball {
             teamArray[i].setData();
             // puts all the conferences in the data for each team
             teamArray[i].Conference = ConferenceList.getConf(teamArray[i].Name);
-            Console.WriteLine(teamArray[i].Conference);
             temp = teamArray[i].printData(); 
 
             // puts the conferences of the teams they played into an array
             for (int j = 1; j < teamArray[i].Wins + teamArray[i].Losses; j++) 
                teamArray[i].confSchedule[j] = ConferenceList.getConf(teamArray[i].schedule[j]);
             teamArray[i].getNonConf();
-
+/*
             // adds all output to be printed
             output.Add(teamArray[i].Name);
             output.Add("---------------\n");
@@ -292,11 +293,12 @@ namespace Basketball {
             foreach (string y in temp2)
                output.Add(y);
             //output.Add("\n");
-            for (int y = 0; y < 10; y++) 
+            for (int y = 0; y < teamArray.Length; y++) 
                output.Add((teamArray[i].Stats[y]).ToString());
             output.Add("\n");
             output.Add("===============\n");
             Console.WriteLine(teamArray[i].nonConfWins); // prints non conference wins
+*/
             i++;
          }
 
@@ -315,18 +317,19 @@ namespace Basketball {
 */
 
          sr.Close(); // closes conference2.txt
-         Console.WriteLine(teamArray[0].Conference);
          // something is messed up in these lines!
          // puts all the conference coeff in the member variable conferenceCoeff
-         
-         foreach (Team t in teamArray) {
-            if (coeff.ContainsKey(t.Conference)) {
-               coeff[t.Conference] += t.margin;
+
+         //foreach (Team t in teamArray) {
+         for (i = 0; i < 10; i++) {
+            //Console.WriteLine(teamArray[i].Conference);
+            if (coeff.ContainsKey(teamArray[i].Conference)) {
+               coeff[teamArray[i].Conference] += teamArray[i].margin;
             } else {
-               coeff.Add(t.Conference, t.margin);
+               coeff.Add(teamArray[i].Conference, teamArray[i].margin);
             }
          }
-         
+
          //coeff.TryGetValue("Big 12", out value);
 
          //Console.WriteLine(teamArray[0].conferenceCoeff);
