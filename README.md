@@ -4,7 +4,28 @@ A march madness game predicter using shell scripts, C#, and eventually a web pag
 
 
 questions:
-1. margin against just non conference opponents
-2. % of wins when playing non conference opponents?
-3. conf coef = just the total margin against non conf opp?
-4. 
+How to calculate the conference coefficient?
+How to calculate the head to head score?
+
+What I have so far:
+    Team's:
+        name
+        conference
+        non-conference winning margin
+        conference winning margin
+        team ESPN id
+        stats [GP, Min, PPG, RPG, APG, SPG, BPG, TPG, FG%, FT%, 3P%]
+        total wins
+        total losses
+        wins against top 25
+        number of non conference wins
+        number of conference wins
+        game info [home score, away score, W/L, Rank of opponent]
+        schedule of teams for the year
+        conference of the teams they play
+        number of freshman, sophomore, junior, senior
+    
+    Conference's:
+        Dictionary :: Team -> Conference
+        Dictionary :: Conference -> Conference Coefficient
+
