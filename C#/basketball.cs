@@ -18,8 +18,9 @@ namespace Basketball {
    class Team {
       private string name;
       private string conference;
-      // private int rating;
+      public float margin = 0; // non conf margin
       private string id;
+      public float conferenceCoeff;
       private string URL;
       private string STATS_URL; // http://espn.go.com/mens-college-basketball/team/stats/_/id/ + y + /
       public int [] stats = new int [11]; // look at html for order of stats
@@ -33,7 +34,7 @@ namespace Basketball {
       public int[] exp = new int[4]; // # of freshman, sophomores, juniors, seniors
 
       public string Name {
-        get { return name + "\n"; }
+        get { return name; }
         set { name = value; }
       }
       public void setURL(string y) {
@@ -61,8 +62,10 @@ namespace Basketball {
          int i;
          nonConfWins = 0;
          for (i = 1; i < wins+losses; i++)
-         if (conference != confSchedule[i])
-            nonConfWins++;
+            if (conference != confSchedule[i] && games[i,2] == 1) { // counts only wins and against non conf
+               nonConfWins++;
+               margin = margin + (games[i,0]-games[i,1]); // also gets the total margin for non conf games
+            }
       }
       public int getConfWins() { return (wins - nonConfWins); }
       public List<string> printData() {
@@ -75,8 +78,8 @@ namespace Basketball {
            //  output.Add(status + "\t" + games[i,0].ToString() + " - " + games[i,1].ToString() + "  #" + games[i,3].ToString() + " " + schedule[i]);
 
             if (games[i,2] == 1) 
-               output.Add((games[i,0]-games[i,1]).ToString());
-            else output.Add((games[i,1]-games[i,0]).ToString());
+               output.Add((games[i,0]-games[i,1]).ToString()); // win margin
+            else output.Add((games[i,1]-games[i,0]).ToString()); // loss margin
          }
          return output;
       }
@@ -91,6 +94,9 @@ namespace Basketball {
 
          // gets name of opponent & gets the rank of the opponents for each game
          getOpp(file);
+
+         // gets number of each class (grade) on each team
+         setExp();
 
          file = client.DownloadString(STATS_URL);
          string delim = "<td>Totals</td>";
@@ -116,8 +122,6 @@ namespace Basketball {
             }
                n++;
          }   
-         // gets number of each class on each team
-         setExp();
       }
       public void getOpp(string file) {
 
@@ -216,19 +220,19 @@ namespace Basketball {
       public Dictionary<string, string> conferences = new Dictionary<string, string>();
 
       public void setData() {
-         StreamReader sr = File.OpenText("conference.txt");
+         StreamReader sr = File.OpenText("conference.txt"); // conferences followed by their teams
          string value, key, key2;
-         while ((value = sr.ReadLine()) != null) { // EOF
+         while ((value = sr.ReadLine()) != null) { // EOF, reads the conference
             while (true) {
-               key = sr.ReadLine();
+               key = sr.ReadLine(); // reads the teams
                key2 = key.Trim();
-               if (key2 == "") // empty line
+               if (key2 == "") // read until empty line
                   break;
-               conferences.Add(key, value); // team, conference
+               conferences.Add(key2, value); // team, conference
             }   
-        }
-        // closes the conference.txt file
-        sr.Close();
+         }
+         // closes the conference.txt file
+         sr.Close();
       }
 
       public string getConf(string team) {
@@ -247,7 +251,7 @@ namespace Basketball {
    class Execute {
 		// entry point
       static void Main(string[] args) {
-         Conference ConferenceList = new Conference(); // list of conferences and teams
+         Conference ConferenceList = new Conference(); // list of teams -> conferences
          ConferenceList.setData();
 
          StreamReader sr = File.OpenText("teams.txt");
@@ -270,8 +274,9 @@ namespace Basketball {
        	   teamArray[i].setURL(input); // url for schedule
             teamArray[i].setSTATS(input); // url for stats
             teamArray[i].setData();
-                // puts all the conferences in the data for each team
+            // puts all the conferences in the data for each team
             teamArray[i].Conference = ConferenceList.getConf(teamArray[i].Name);
+            Console.WriteLine(teamArray[i].Conference);
             temp = teamArray[i].printData(); 
 
             // puts the conferences of the teams they played into an array
@@ -295,20 +300,43 @@ namespace Basketball {
             i++;
          }
 
-        // closes the teams.txt file
-        sr.Close(); 
+         // closes the teams.txt file
+         sr.Close(); 
 
-        // writes to out.txt
+         Dictionary<string, float> coeff = new Dictionary<string, float>(); // dictionary iwth all athe conf coefficients
+         sr = File.OpenText("conference2.txt");
+         //string key;
+/*
+         for (i = 0; i < 32; i++) {
+            key = sr.ReadLine(); // team
+            key = key.Trim();
+            coeff.Add(key, 0); // conference, coeff
+         }
+*/
+
+         sr.Close(); // closes conference2.txt
+         Console.WriteLine(teamArray[0].Conference);
+         // something is messed up in these lines!
+         // puts all the conference coeff in the member variable conferenceCoeff
+         
+         foreach (Team t in teamArray) {
+            if (coeff.ContainsKey(t.Conference)) {
+               coeff[t.Conference] += t.margin;
+            } else {
+               coeff.Add(t.Conference, t.margin);
+            }
+         }
+         
+         //coeff.TryGetValue("Big 12", out value);
+
+         //Console.WriteLine(teamArray[0].conferenceCoeff);
+         
+
+         // writes to out.txt
          StreamWriter writer = new StreamWriter("out.txt");
          foreach (string x in output) {
             writer.Write(x + ", ");
-         // writer.WriteLine(x);
          } 
-      }
-      // needs to check the conf schedule and if (ConferenceList.getConf(team) != team.confSchedule[i])
-      static int test(Conference ConferenceList, Team team) {
-
-        return 0;
       }
    }
 }

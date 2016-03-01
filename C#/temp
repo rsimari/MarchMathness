@@ -326,6 +326,7 @@ ad_kvps=ad_kvps+"ref="+ad_ref+";mnr="+ad_mnr+";";ad_swid=jQuery.cookie("SWID");"
 			espn.i18n.country = "us";
 			espn.i18n.domain = "espn.go.com";
 			espn.i18n.searchUrl = "http://search.espn.go.com/",
+			espn.i18n.hasSearch = true,
 			espn.i18n.temperature = {scale: "fahrenheit", symbol: "&deg; F" };
 			espn.i18n.facebook = {appId: "116656161708917", locale: "en_US" };
 			espn.i18n.outbrain = {mobile: {compliantId: "MB_4", nonCompliantId: "MB_5"},
@@ -345,7 +346,7 @@ ad_kvps=ad_kvps+"ref="+ad_ref+";mnr="+ad_mnr+";";ad_swid=jQuery.cookie("SWID");"
 			espn.i18n.indexAutoStart = false;
 			espn.i18n.sportReplacements = {};
 
-			espn.i18n.uriRewrites = {"paramKeys":{"toEdition":{},"toEnglish":{}},"pathSegments":{"toEdition":{},"toEnglish":{}},"roots":{"toEdition":{"/endurance/":"/sports/endurance/","/horse/":"/horse-racing/","/los-angeles/":"/losangeles/","/nascar/":"/racing/nascar/","/ncaa/":"/college-sports/","/ncb/":"/mens-college-basketball/","/ncf/":"/college-football/","/ncw/":"/womens-college-basketball/","/new-york/":"/newyork/","/oly/":"/figure-skating/","/onenacion/":"/espn/onenacion/","/rpm/":"/racing/","/womenbb/":"/sports/womenbb/"},"toEnglish":{"/college-football/":"/ncf/","/college-sports/":"/ncaa/","/cycling/":"/oly/","/espn/onenacion/":"/onenacion/","/figure-skating/":"/oly/","/gymnastics/":"/oly/","/horse-racing/":"/horse/","/losangeles/":"/los-angeles/","/mens-college-basketball/":"/ncb/","/newyork/":"/new-york/","/olympics/":"/oly/","/racing/":"/rpm/","/racing/nascar/":"/nascar/","/skiing/":"/oly/","/sports/endurance/":"/endurance/","/sports/horse/":"/horse/","/sports/womenbb/":"/womenbb/","/womens-basketball/":"/womenbb/","/womens-college-basketball/":"/ncw/"}},"urls":{"toEdition":{},"toEnglish":{}},"paramValues":{"toEdition":{},"toEnglish":{}}};
+			espn.i18n.uriRewrites = {"paramKeys":{"toEdition":{},"toEnglish":{}},"pathSegments":{"toEdition":{},"toEnglish":{}},"urls":{"toEdition":{},"toEnglish":{}},"roots":{"toEdition":{"/endurance/":"/sports/endurance/","/horse/":"/horse-racing/","/los-angeles/":"/losangeles/","/nascar/":"/racing/nascar/","/ncaa/":"/college-sports/","/ncb/":"/mens-college-basketball/","/ncf/":"/college-football/","/ncw/":"/womens-college-basketball/","/new-york/":"/newyork/","/oly/":"/figure-skating/","/onenacion/":"/espn/onenacion/","/rpm/":"/racing/","/womenbb/":"/sports/womenbb/"},"toEnglish":{"/college-football/":"/ncf/","/college-sports/":"/ncaa/","/cycling/":"/oly/","/espn/onenacion/":"/onenacion/","/figure-skating/":"/oly/","/gymnastics/":"/oly/","/horse-racing/":"/horse/","/losangeles/":"/los-angeles/","/mens-college-basketball/":"/ncb/","/newyork/":"/new-york/","/olympics/":"/oly/","/racing/":"/rpm/","/racing/nascar/":"/nascar/","/skiing/":"/oly/","/sports/endurance/":"/endurance/","/sports/horse/":"/horse/","/sports/womenbb/":"/womenbb/","/womens-basketball/":"/womenbb/","/womens-college-basketball/":"/ncw/"}},"paramValues":{"toEdition":{},"toEnglish":{}}};
 
 			try {
 				//find way to double encode
@@ -394,17 +395,19 @@ monthNamesLong: ["January","February","March","April","May","June","July","Augus
 
 <nav id="global-nav-mobile" data-loadtype="server">
 </nav><div class="menu-overlay-primary"></div><div id="header-wrapper" data-behavior="global_header">
-<header id="global-header" class="espn-en user-account-management">
+<header id="global-header" class="espn-en user-account-management has-search">
     <div class="menu-overlay-secondary"></div>
 
 	<div class="container">
-		<a id="global-nav-mobile-trigger" href="#" data-route="false"><span>Menu</span></a><h1><a class="null" href="http://espn.go.com"  name="&lpos=sitenavdefault&lid=sitenav_main-logo">ESPN</a></h1>
+		<a id="global-nav-mobile-trigger" href="#" data-route="false"><span>Menu</span></a><h1><a href="http://espn.go.com"  name="&lpos=sitenavdefault&lid=sitenav_main-logo">ESPN</a></h1>
 		<ul class="tools">
+			
 			<li class="search">
 <a href="#" class="icon-font-after icon-search-solid-after" id="global-search-trigger"></a>
 <div id="global-search" class="global-search">
 	<input type="text" class="search-box" placeholder="Search Sports, Teams or Players..."><input type="submit" class="btn-search">
 </div></li>
+			
 			
 			<li class="user" data-behavior="favorites_mgmt"></li>
 			
