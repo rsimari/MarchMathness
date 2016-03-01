@@ -1,14 +1,14 @@
 ##MARCH MATHNESS
 
-A march madness game predicter using shell scripts, C#, and eventually a web page using Chart.js to present data.
+#A march madness game predicter using shell scripts, C#, and eventually a web page using Chart.js to present data.
 
 
-questions:
+Questions:
 How to calculate the conference coefficient?
 How to calculate the head to head score?
 
-What I have so far:
-    Team's:
+##What I have so far:
+#Team's:
         name
         conference
         non-conference winning margin
@@ -25,7 +25,7 @@ What I have so far:
         conference of the teams they play
         number of freshman, sophomore, junior, senior
     
-    Conference's:
+#Conference's:
         Dictionary :: Team -> Conference
         Dictionary :: Conference -> Conference Coefficient
 
