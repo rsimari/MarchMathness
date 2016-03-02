@@ -1,0 +1,38 @@
+Baylor
+239
+Iowa State
+66
+Kansas
+2305
+Kansas State
+2306
+Oklahoma
+201
+Oklahoma State
+197
+TCU
+2628
+Texas
+251
+Texas Tech
+2641
+West Virginia
+277
+Albany
+399
+Binghamton
+2066
+Hartford
+42
+Maine
+311
+UNH
+160
+Stony Brook
+2619
+UMass Lowell
+2349
+UMBC
+2378
+Vermont
+261

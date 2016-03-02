@@ -7,7 +7,7 @@ UNH
 Stony Brook
 UMass Lowell
 UMBC
-Vermont 
+Vermont
 
 American
 Cincinnati
@@ -36,7 +36,7 @@ Richmond
 Saint Joe's
 Saint Louis
 St Bonaventure
-VCU 
+VCU
 
 ACC
 Boston College
@@ -51,7 +51,7 @@ UNC
 Notre Dame
 Pitt
 Syracuse
-UVA
+Virginia
 Virginia Tech
 Wake Forest
 
@@ -214,7 +214,7 @@ Buffalo
 Cent Michigan
 E Michigan
 Kent State
-Miami (OH) 
+Miami (OH)
 N Illinois
 Ohio
 Toledo
@@ -241,7 +241,7 @@ Drake
 Evansville
 Illinois State
 Indiana State
-Loyola (CHI) 
+Loyola (CHI)
 Missouri State
 Northern Iowa
 S Illinois
@@ -268,8 +268,8 @@ LIU Brooklyn
 Mt St Mary's
 Robert Morris
 Sacred Heart
-St Francis (BKN) 
-St Francis (PA) 
+St Francis (BKN)
+St Francis (PA)
 Wagner
 
 Ohio Valley
@@ -309,7 +309,7 @@ Colgate
 Holy Cross
 Lafayette
 Lehigh
-Loyola (MD) 
+Loyola (MD)
 Navy
 
 SEC

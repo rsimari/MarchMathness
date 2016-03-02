@@ -12,12 +12,10 @@ using System.Diagnostics;
    3. fill conferenceTop25.txt with the number of each conference in top25
 	3: Run program
   notes: if there is no score or name on the game that means the team is not D1
-
 */
 
-
 namespace Basketball {
-
+   
    class Team {
       private string name;
       private string conference;
@@ -105,20 +103,18 @@ namespace Basketball {
          client.Headers.Add("user-agent", "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR 1.0.3705;)");
      	   // downloads html as a string
          string file = client.DownloadString(URL);
-
+         
      	   // gets scores of all the games
          getScores(file);
-
          // gets name of opponent & gets the rank of the opponents for each game
          getOpp(file);
-
          // gets number of each class (grade) on each team
          setExp();
 
          file = client.DownloadString(STATS_URL);
          string delim = "<td>Totals</td>";
          string [] stat = Regex.Split(file, delim);
-
+/*
          int i = 0;
          int n = 10;
          string u = stat[1]; 
@@ -138,7 +134,8 @@ namespace Basketball {
                }
             }
                n++;
-         }   
+         } 
+*/
       }
       public void getOpp(string file) {
 
@@ -240,7 +237,7 @@ namespace Basketball {
 
       public void setData() {
          StreamReader sr = File.OpenText("conference.txt"); // conferences followed by their teams
-         string value = "", key = "", temp;
+         string value = "", key = "";
          while (true) { // reads the conferences
             value = sr.ReadLine();
             if (value == null) // EOF
@@ -270,6 +267,7 @@ namespace Basketball {
    }
 
    class Execute {
+      const int NUMBER_OF_TEAMS = 353; // NUMBER OF TEAMS HERE!
 		// entry point
       static void Main(string[] args) {
          Conference ConferenceList = new Conference(); // list of teams -> conferences
@@ -283,7 +281,7 @@ namespace Basketball {
          int i = 0;
          string input;
 
-         var teamArray = new Team[64];
+         var teamArray = new Team[354];
 
          while(true) {
             teamArray[i] = new Team();
@@ -303,6 +301,7 @@ namespace Basketball {
             for (int j = 1; j < teamArray[i].Wins + teamArray[i].Losses; j++) 
                teamArray[i].confSchedule[j] = ConferenceList.getConf(teamArray[i].schedule[j]);
             teamArray[i].getNonConf();
+
 /*
             // adds all output to be printed
             output.Add(teamArray[i].Name);
@@ -338,8 +337,8 @@ namespace Basketball {
 
          // conf coeff = log(totalMargin^(teams in top 25)*(wins% against top 25)*(non conference win %))
          // fills dictionary with total margin for each conference
-         for (i = 0; i < 10; i++) {
-            //Console.WriteLine(teamArray[i].confWins);
+       
+         for (i = 0; i < NUMBER_OF_TEAMS; i++) {
             if (coeff.ContainsKey(teamArray[i].Conference)) {
                coeff[teamArray[i].Conference] += teamArray[i].nonConfMargin;
             } else {
@@ -359,7 +358,7 @@ namespace Basketball {
 
          double wins = 0, winsB = 0, total = 0, totalB = 0;
          foreach (var k in coeff.Keys.ToList()) {
-            for (i = 0; i < 10; i++) {
+            for (i = 0; i < NUMBER_OF_TEAMS; i++) {
                if (teamArray[i].Conference == k) {
                   wins += teamArray[i].topWins;
                   total += (teamArray[i].topWins + teamArray[i].topLosses);
@@ -367,12 +366,13 @@ namespace Basketball {
                   totalB += (teamArray[i].nonConfWins + teamArray[i].nonConfLosses);  
                }
             }
-            if (total != 0) {
+            if (total != 0) { // just to make sure 
                coeff[k] = Math.Log(coeff[k] * (wins/total * winsB/totalB), 10); // maths
             }
             wins = 0; winsB = 0; total = 0; totalB = 0; // reset
          }
-         
+         //Console.WriteLine(coeff["Big 12"]);
+        
          // writes to out.txt
          StreamWriter writer = new StreamWriter("out.txt");
          foreach (string x in output) {
@@ -381,8 +381,3 @@ namespace Basketball {
       }
    }
 }
-
-
-
-
-
