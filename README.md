@@ -15,11 +15,10 @@ How to calculate the head to head score?
         conference winning margin
         team ESPN id
         stats [GP, Min, PPG, RPG, APG, SPG, BPG, TPG, FG%, FT%, 3P%]
-        total wins
-        total losses
-        wins against top 25
-        number of non conference wins
-        number of conference wins
+        total wins/losses
+        wins/losses against top 25
+        number of non conference wins/losses
+        number of conference wins/losses
         game info [home score, away score, W/L, Rank of opponent]
         schedule of teams for the year
         conference of the teams they play
