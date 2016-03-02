@@ -36,3 +36,423 @@ UMBC
 2378
 Vermont
 261
+Cincinnati
+2132
+UConn
+41
+ECU
+151
+Houston
+248
+Memphis
+235
+SMU
+2567
+USF
+58
+Temple
+218
+Tulane
+2655
+Tulsa
+202
+UCF
+2116
+Davidson
+2166
+Dayton
+2168
+Duquesne
+2184
+Fordham
+2230
+George Mason
+2244
+G Washington
+45
+La Salle
+2325
+UMass
+113
+URI
+227
+Richmond
+257
+Saint Joe's
+2603
+Saint Louis
+139
+St Bonaventure
+179
+VCU
+2670
+Boston College
+103
+Clemson
+228
+Duke
+150
+FSU
+52
+Georgia Tech
+59
+Louisville
+97
+Miami (FL)
+2390
+NC State
+152
+UNC
+153
+Notre Dame
+87
+Pitt
+221
+Syracuse
+183
+UVA
+258
+Virginia Tech
+259
+Wake Forest
+154
+FGCU
+526
+Jacksonville
+294
+Kennesaw St
+338
+Lipscomb
+288
+NJIT
+2885
+North Florida
+2454
+USC Upstate
+2908
+Stetson
+56
+Butler
+2086
+Creighton
+156
+DePaul
+305
+Georgetown
+46
+Marquette
+269
+Providence
+2507
+Seton Hall
+2550
+St John's
+2599
+Xavier
+2752
+E Washington
+331
+Idaho
+70
+Idaho State
+304
+Montana
+149
+Montana State
+147
+North Dakota
+155
+N Arizona
+2464
+N Colorado
+2458
+Portland State
+2502
+Sacramento St
+16
+Southern Utah
+253
+Weber State
+2692
+Campbell
+2097
+Charleston So
+2127
+Coast Carolina
+324
+Gardner-Webb
+2241
+High Point
+2272
+Liberty
+2335
+Longwood
+2344
+Presbyterian
+2506
+Radford
+2515
+UNC Asheville
+2427
+Winthrop
+2737
+Illinois
+356
+Indiana
+84
+Iowa
+2294
+Maryland
+120
+Michigan
+130
+Minnesota
+135
+Nebraska
+158
+Northwestern
+77
+OSU
+194
+Penn State
+213
+Purdue
+2509
+Rutgers
+164
+Wisconsin
+275
+Cal Poly
+13
+CS Fullerton
+2239
+CS Northridge
+2463
+Hawaii
+62
+LBSU
+299
+UC Davis
+302
+UC Irvine
+300
+UC Riverside
+27
+UCSB
+2540
+Charleston
+232
+Delaware
+48
+Drexel
+2182
+Elon
+2210
+Hofstra
+275
+JMU
+256
+Northeastern
+111
+Towson
+119
+UNC-Wilmington
+350
+William & Mary
+2729
+Charlotte
+2429
+FAU
+2226
+FIU
+2229
+LA Tech
+2348
+Marshall
+276
+Mid Tennessee
+2393
+North Texas
+249
+Old Dominion
+295
+Rice
+242
+Southern Miss
+2572
+UTSA
+2636
+UAB
+5
+UTEP
+2638
+W Kentucky
+98
+Cleveland State
+325
+Detroit
+2174
+Green Bay
+2739
+Milwaukee
+270
+N Kentucky
+94
+Oakland
+2473
+UIC
+82
+Valparaiso
+2674
+Wright State
+2750
+Youngstown St
+2754
+Brown
+225
+Columbia
+171
+Cornell
+172
+Dartmouth
+159
+Harvard
+108
+Penn
+219
+Princeton
+163
+Yale
+43
+Canisius
+2099
+Fairfield
+2217
+Iona
+314
+Manhattan
+2363
+Marist
+2368
+Monmouth
+2405
+Niagara
+315
+Quinnipiac
+2514
+Rider
+2520
+St Peter's
+2612
+Siena
+2561
+Akron
+2006
+Ball State
+2050
+Bowling Green
+189
+Buffalo
+2084
+Cent Michigan
+2117
+E Michigan
+2199
+Kent State
+2309
+Miami (OH)
+193
+N Illinois
+2459
+Ohio
+195
+Toledo
+2649
+W Michigan
+2711
+Bethune-Cookman
+2065
+Coppin State
+2154
+Delaware State
+2169
+Florida A&M
+50
+Hampton
+2261
+Howard
+47
+MD-E Shore
+2379
+Morgan State
+2415
+Norfolk State
+2450
+NC A&T
+2448
+NC Central
+2428
+Savannah State
+2542
+S Carolina St
+2569
+Bradley
+71
+Drake
+2181
+Evansville
+339
+Illinois State
+2287
+Indiana State
+282
+Loyola (CHI)
+350
+Missouri State
+2623
+Northern Iowa
+2460
+S Illinois
+79
+Wichita State
+2724
+Air Force
+2005
+Boise State
+68
+Colorado State
+36
+Fresno State
+278
+Nevada
+2440
+New Mexico
+167
+San Diego State
+21
+San Jose State
+23
+UNLV
+2439
+Utah State
+328
+Wyoming
+2751
+Bryant
+2803
+Cent Conn St
+2115
+Fair Dickinson
+161
+LIU Brooklyn
+2341
+Mt St Mary's
+116
+Robert Morris
+2523
+Sacred Heart
+2529
+St Francis (BKN)
+2597
+St Francis (PA)
+2598

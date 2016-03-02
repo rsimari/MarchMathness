@@ -2,8 +2,6 @@ Michigan State
 127
 Villanova
 222
-Virginia
-258
 California
 25
 Albany
@@ -87,7 +85,7 @@ Georgia Tech
 Louisville
 97
 Miami (FL)
-2390 
+2390
 NC State
 152
 UNC
@@ -98,7 +96,7 @@ Pitt
 221
 Syracuse
 183
-UVA
+Virginia
 258
 Virginia Tech
 259
@@ -465,7 +463,7 @@ St Francis (BKN)
 St Francis (PA)
 2598
 Wagner
-681
+2681
 Austin Peay
 2046
 Belmont

@@ -34,7 +34,7 @@ namespace Basketball {
       public int nonConfLosses = 0; // non conference losses
       public int confWins = 0; // conference wins
       public int confLosses = 0; // conference losses
-    	private int[,] games = new int[35,4]; // games[score1, score2, W/L, Rank of Opp]
+    	private int[,] games = new int[40,4]; // games[score1, score2, W/L, Rank of Opp]
       public string[] schedule = new string[40]; // filled with teams from their schedule
       public string[] confSchedule = new string[40]; // filled with conferences they played
       public int[] exp = new int[4]; // # of freshman, sophomores, juniors, seniors
@@ -113,16 +113,17 @@ namespace Basketball {
 
          file = client.DownloadString(STATS_URL);
          string delim = "<td>Totals</td>";
-         string [] stat = Regex.Split(file, delim);
-/*
+         string [] url = new string[50];
+         url = Regex.Split(file, delim);
+
          int i = 0;
          int n = 10;
-         string u = stat[1]; 
-         while (n < u.Length && i < 10) {
+         string u = url[1]; 
+         while (n < u.Length && i < 11) {
             int x;
             if (int.TryParse(u.Substring(n,3), out x)) { // this gets the stats for the teams
                stats[i++] = x;
-               n+=2;
+               n+=3;
             } else {
                if (int.TryParse(u.Substring(n,2), out x)) {
                   stats[i++] = x;
@@ -133,9 +134,10 @@ namespace Basketball {
                   }
                }
             }
-               n++;
+           // Console.WriteLine(i);
+            n++;
          } 
-*/
+
       }
       public void getOpp(string file) {
 
@@ -267,7 +269,7 @@ namespace Basketball {
    }
 
    class Execute {
-      const int NUMBER_OF_TEAMS = 353; // NUMBER OF TEAMS HERE!
+      const int NUMBER_OF_TEAMS = 352; // NUMBER OF TEAMS HERE! // must be exact?
 		// entry point
       static void Main(string[] args) {
          Conference ConferenceList = new Conference(); // list of teams -> conferences
@@ -318,6 +320,7 @@ namespace Basketball {
             Console.WriteLine(teamArray[i].nonConfWins); // prints non conference wins
 */
             i++;
+            //Console.WriteLine(i);
          }
 
          // closes the teams.txt file
