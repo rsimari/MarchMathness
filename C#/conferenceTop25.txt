@@ -1,0 +1,64 @@
+America East
+0
+American
+0
+Atlantic 10
+0
+ACC
+0
+Atlantic Sun
+0
+Big 12
+4
+Big East
+2
+Big Sky
+0
+Big South
+4
+Big Ten
+4
+Big West
+2
+Colonial
+4
+Conference USA
+2
+Horizon
+0
+Ivy
+0
+MAAC
+0
+Mid-American
+2
+MEAC
+1
+Missouri Valley
+0
+Mountain West
+2
+Northeast
+0
+Ohio Valley
+1
+Pac-12
+0
+Patriot League
+0
+SEC
+1
+Southern
+1
+Southland
+2
+SWAC
+3
+Summit League
+1
+Sun Belt
+0
+West Coast
+0
+WAC
+1
