@@ -1,0 +1,221 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>March MATHness</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<script src='Chart.min.js'></script>
+        <style>
+            .header {
+                margin-top: 200px;
+                text-align: center;
+            }
+        </style>
+	</head>
+	<body class="landing">
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1><a href="index.html">March MATHness</a></h1>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="index.html">Home</a></li>
+											<li><a href="generic.html">Generic</a></li>
+											<li><a href="elements.html">Elements</a></li>
+											<li><a href="#">Sign Up</a></li>
+											<li><a href="#">Log In</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Banner -->
+					<section id="banner">
+						<p> Welcome To </p>
+						<div class="inner">
+							<h2>March MATHness</h2>
+							<p>A March Madness game predicter<br />
+							<br />
+							created by Robert Simari and Jake Miller</a>.</p>
+							<ul class="actions">
+								<li><a href="#" class="button special">Make Predictions</a></li>
+							</ul>
+						</div>
+						<a href="#one" class="more scrolly">Explore</a>
+					</section>
+
+				<!-- One -->
+					<section id="one" class="wrapper style1 special">
+								<canvas id="buyers" width="1000" height="400"></canvas>
+							        <!-- line chart canvas element -->
+							        <script>
+							            var kansas = [37,-6,51,19,7,33,6,33,15,42,13,25,28,3]; 
+							            var texas = [-6,11,-11,12,-6,7,10,66,2,12,2,-5,-8,3];
+							            var labels = [];
+							            for (var i = 1; i <= kansas.length; i++)
+							                labels.push("Game " + i.toString());
+							            var buyerData = {
+							                labels : labels,
+							                datasets : [
+							                {
+							                    fillColor : "#002B5C",
+							                    strokeColor : "#ACC26D",
+							                    pointColor : "#fff",
+							                    pointStrokeColor : "002B5C", // auto fits to min/max
+							                    data : kansas, // for point for every label?
+							                    pointHitDetectionRadius : 5,
+							                    pointHighlightFill: "#fff",
+							                    pointHighlightStroke: "002B5C",
+							                },
+							                {
+							                    fillColor : "rgba(255,140,0,0.4)",
+							                    strokeColor : "#ACC26D",
+							                    pointColor : "#fff",
+							                    pointStrokeColor : "002B5C", // auto fits to min/max
+							                    data : texas, // for point for every label?
+							                    pointHighlightStroke: "002B5C",
+							                    pointHitDetectionRadius : 5
+							                },
+
+							                ]
+							            }
+							            // get line chart canvas
+							            var buyers = document.getElementById('buyers').getContext('2d');
+							            // draw line chart
+							            new Chart(buyers).Line(buyerData);
+							            
+							        </script>
+						<div class="inner">
+							<header class="major">
+								<h2>Year Long Analysis<br />
+								</h2>
+								<p>Statistics from the entire year go into our predictions<br />
+								from tournament experience of players to points per game.</p>
+							</header>
+							<ul class="icons major">
+								<!-- <li><span class="icon fa-diamond major style1"><span class="label">Lorem</span></span></li>
+								<li><span class="icon fa-heart-o major style2"><span class="label">Ipsum</span></span></li>
+								<li><span class="icon fa-code major style3"><span class="label">Dolor</span></span></li> -->
+							</ul>
+						</div>
+					</section>
+
+				<!-- Two -->
+					<section id="two" class="wrapper alt style2">
+						<section class="spotlight">
+							<div class="image"><img src="images/banner.jpg" alt="" /></div><div class="content">
+								<h2>Compare Conferences<br />
+								</h2>
+								<p>Our algorithms rank conferences based on strength of schedule, wins against non conference opponents, winning margin of conference members, and many other factors.</p>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="image"><img src="images/banner.jpg" alt="" /></div><div class="content">
+								<h2>Experience<br />
+								</h2>
+								<p>We use data from previous years to track what makes teams successful each year. We also factor in the how much tournament experience each player has and how they performed. </p>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="image"><img src="images/banner.jpg" alt="" /></div><div class="content">
+								<h2>Momentum<br />
+								</h2>
+								<p>We have devised algorithms to determine which teams are hot and which are not. Think its your teams year because of a couple of big wins late in the year? Check with our data before you go all in.</p>
+							</div>
+						</section>
+					</section>
+
+				<!-- Three -->
+					<section id="three" class="wrapper style3 special">
+						<div class="inner">
+							<header class="major">
+								<h2>Accumsan mus tortor nunc aliquet</h2>
+								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
+								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
+							</header>
+							<ul class="features">
+								<li class="icon fa-paper-plane-o">
+									<h3>Arcu accumsan</h3>
+									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								</li>
+								<li class="icon fa-laptop">
+									<h3>Ac Augue Eget</h3>
+									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								</li>
+								<li class="icon fa-code">
+									<h3>Mus Scelerisque</h3>
+									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								</li>
+								<li class="icon fa-headphones">
+									<h3>Mauris Imperdiet</h3>
+									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								</li>
+								<li class="icon fa-heart-o">
+									<h3>Aenean Primis</h3>
+									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								</li>
+								<li class="icon fa-flag-o">
+									<h3>Tortor Ut</h3>
+									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								</li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- CTA -->
+					<section id="cta" class="wrapper style4">
+						<div class="inner">
+							<header>
+								<h2>Arcue ut vel commodo</h2>
+								<p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p>
+							</header>
+							<ul class="actions vertical">
+								<li><a href="#" class="button fit special">Make Predictions</a></li> 
+								<li><a href="#" class="button fit">About Us</a></li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="icons">
+							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+							<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

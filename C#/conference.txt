@@ -45,7 +45,7 @@ Duke
 FSU
 Georgia Tech
 Louisville
-Miami (FL) 
+Miami (FL)
 NC State
 UNC
 Notre Dame
@@ -289,7 +289,7 @@ UT Martin
 Pac-12
 Arizona
 Arizona State
-Cal
+California
 Colorado
 Oregon
 Oregon State

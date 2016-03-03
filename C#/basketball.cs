@@ -22,7 +22,7 @@ namespace Basketball {
       public double nonConfMargin = 0; // non conf margin
       public double confMargin = 0;
       private string id;
-      public double conferenceCoeff;
+      //public double conferenceCoeff;
       private string URL;
       private string STATS_URL; // http://espn.go.com/mens-college-basketball/team/stats/_/id/ + y + /
       public int [] stats = new int [11]; // look at html for order of stats
@@ -269,7 +269,7 @@ namespace Basketball {
    }
 
    class Execute {
-      const int NUMBER_OF_TEAMS = 352; // NUMBER OF TEAMS HERE! // must be exact?
+      const int NUMBER_OF_TEAMS = 351; // NUMBER OF TEAMS HERE!
 		// entry point
       static void Main(string[] args) {
          Conference ConferenceList = new Conference(); // list of teams -> conferences
@@ -283,15 +283,17 @@ namespace Basketball {
          int i = 0;
          string input;
 
-         var teamArray = new Team[354];
+         var teamArray = new Team[352];
 
          while(true) {
             teamArray[i] = new Team();
        	    // gets the name of the team, url of data and fetches data
        	   teamArray[i].Name = sr.ReadLine(); // team name
             input = sr.ReadLine(); // team id
-            if (input == null) 
+            if (input == null) {
+
                break;
+            }
        	   teamArray[i].setURL(input); // url for schedule
             teamArray[i].setSTATS(input); // url for stats
             teamArray[i].setData();
@@ -320,48 +322,51 @@ namespace Basketball {
             Console.WriteLine(teamArray[i].nonConfWins); // prints non conference wins
 */
             i++;
-            //Console.WriteLine(i);
+            Console.WriteLine(i);
          }
 
          // closes the teams.txt file
          sr.Close(); 
 
          Dictionary<string, double> coeff = new Dictionary<string, double>(); // dictionary iwth all athe conf coefficients
+/*        
          sr = File.OpenText("conference2.txt");
          string key;
+         double value = 0.0;
          // makes empty dictionary of just the conferences -> 0
          for (i = 0; i < 32; i++) {
             key = sr.ReadLine(); // read team name
             key = key.Trim();
-            coeff.Add(key, 0); // conference, coeff
+            Console.WriteLine(i);
+            coeff.Add(key, value); // conference, coeff
          }
 
          sr.Close(); // closes conference2.txt
-
+*/
          // conf coeff = log(totalMargin^(teams in top 25)*(wins% against top 25)*(non conference win %))
          // fills dictionary with total margin for each conference
-       
+         Console.WriteLine("t");
          for (i = 0; i < NUMBER_OF_TEAMS; i++) {
-            if (coeff.ContainsKey(teamArray[i].Conference)) {
+            if (!coeff.ContainsKey(teamArray[i].Conference))
+               coeff.Add(teamArray[i].Conference, teamArray[i].nonConfMargin * 1.0);
+            else if (teamArray[i].Conference != null)
                coeff[teamArray[i].Conference] += teamArray[i].nonConfMargin;
-            } else {
-               coeff.Add(teamArray[i].Conference, teamArray[i].nonConfMargin);
-            }
          }
-
+         Console.WriteLine("a");
          // ^(teams in top 25)
          sr = File.OpenText("conferenceTop25.txt");
          string team;
          double number;
          for (i = 0; i < 32; i++) {
             team = sr.ReadLine(); // conference name
-            number = Int32.Parse(sr.ReadLine()); // # of top 25 teams in conference
-            coeff[team] = (Math.Pow(coeff[team], number)); // maths
+            number = Int32.Parse(sr.ReadLine()) * 1.0; // # of top 25 teams in conference
+            //coeff[team] = (Math.Pow(coeff[team], number)); // maths
          }
-
+         Console.WriteLine("b");
          double wins = 0, winsB = 0, total = 0, totalB = 0;
          foreach (var k in coeff.Keys.ToList()) {
-            for (i = 0; i < NUMBER_OF_TEAMS; i++) {
+            for (i = 0; i < NUMBER_OF_TEAMS; i++) { // goes through all the teams
+               //Console.WriteLine(teamArray[i].Conference);
                if (teamArray[i].Conference == k) {
                   wins += teamArray[i].topWins;
                   total += (teamArray[i].topWins + teamArray[i].topLosses);
@@ -369,12 +374,15 @@ namespace Basketball {
                   totalB += (teamArray[i].nonConfWins + teamArray[i].nonConfLosses);  
                }
             }
-            if (total != 0) { // just to make sure 
+            Console.Write(coeff[k] + " --> " + wins + " " + winsB); // coeff[k] == total nonconference winning margin 
+            if (totalB != 0 && total != 0) { // just to make sure 
                coeff[k] = Math.Log(coeff[k] * (wins/total * winsB/totalB), 10); // maths
             }
             wins = 0; winsB = 0; total = 0; totalB = 0; // reset
+            Console.Write(k + " : ");
+            Console.WriteLine(coeff[k]);
          }
-         //Console.WriteLine(coeff["Big 12"]);
+
         
          // writes to out.txt
          StreamWriter writer = new StreamWriter("out.txt");

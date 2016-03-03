@@ -1,11 +1,11 @@
 America East
 0
 American
-0
+1
 Atlantic 10
 0
 ACC
-0
+5
 Atlantic Sun
 0
 Big 12
@@ -15,15 +15,15 @@ Big East
 Big Sky
 0
 Big South
-4
+0
 Big Ten
-4
+5
 Big West
-2
+0
 Colonial
-4
+0
 Conference USA
-2
+0
 Horizon
 0
 Ivy
@@ -31,34 +31,34 @@ Ivy
 MAAC
 0
 Mid-American
-2
+0
 MEAC
-1
+0
 Missouri Valley
 0
 Mountain West
-2
+0
 Northeast
 0
 Ohio Valley
-1
-Pac-12
 0
+Pac-12
+4
 Patriot League
 0
 SEC
-1
-Southern
-1
-Southland
 2
+Southern
+0
+Southland
+0
 SWAC
-3
+0
 Summit League
-1
+0
 Sun Belt
 0
 West Coast
 0
 WAC
-1
+0
