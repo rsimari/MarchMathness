@@ -1,11 +1,8 @@
 ##MARCH MATHNESS
 
-#A march madness game predicter using shell scripts, C#, and eventually a web page using Chart.js to present data.
+#A march madness game predicter using shell scripts, C#, and a web page using Chart.js to present data.
 
-
-Questions:
-How to calculate the conference coefficient?
-How to calculate the head to head score?
+# visit http://marchmathness.herokuapp.com to see our work!
 
 ##What I have so far:
 #Team's:

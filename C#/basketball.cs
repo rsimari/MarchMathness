@@ -26,15 +26,17 @@ namespace Basketball {
       private string URL;
       private string STATS_URL; // http://espn.go.com/mens-college-basketball/team/stats/_/id/ + y + /
       public int [] stats = new int [11]; // look at html for order of stats
-      private int wins = 0; // total wins
-      private int losses = 0; // total losses
+      public double winPer;
+      public double nonConfWinPer;
+      public int wins = 0; // total wins
+      public int losses = 0; // total losses
       public int topWins = 0; // wins vs top 25
       public int topLosses = 0; // losses vs top 25
       public int nonConfWins = 0; // non conference wins
       public int nonConfLosses = 0; // non conference losses
       public int confWins = 0; // conference wins
       public int confLosses = 0; // conference losses
-    	private int[,] games = new int[40,4]; // games[score1, score2, W/L, Rank of Opp]
+    	public int[,] games = new int[40,4]; // games[score1, score2, W/L, Rank of Opp]
       public string[] schedule = new string[40]; // filled with teams from their schedule
       public string[] confSchedule = new string[40]; // filled with conferences they played
       public int[] exp = new int[4]; // # of freshman, sophomores, juniors, seniors
@@ -90,15 +92,12 @@ namespace Basketball {
        		if (games[i,2] == 1)
                status = 'W';
             else status = 'L';
-           //  output.Add(status + "\t" + games[i,0].ToString() + " - " + games[i,1].ToString() + "  #" + games[i,3].ToString() + " " + schedule[i]);
-
-            if (games[i,2] == 1) 
-               output.Add((games[i,0]-games[i,1]).ToString()); // win margin
-            else output.Add((games[i,1]-games[i,0]).ToString()); // loss margin
+            output.Add(status + "\t" + games[i,0].ToString() + " - " + games[i,1].ToString() + "  #" + games[i,3].ToString() + " " + schedule[i]);  
          }
          return output;
       }
       public void setData() {
+
          WebClient client = new WebClient(); 
          client.Headers.Add("user-agent", "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR 1.0.3705;)");
      	   // downloads html as a string
@@ -113,7 +112,7 @@ namespace Basketball {
 
          file = client.DownloadString(STATS_URL);
          string delim = "<td>Totals</td>";
-         string [] url = new string[50];
+         string [] url = new string[80];
          url = Regex.Split(file, delim);
 
          int i = 0;
@@ -134,10 +133,8 @@ namespace Basketball {
                   }
                }
             }
-           // Console.WriteLine(i);
             n++;
          } 
-
       }
       public void getOpp(string file) {
 
@@ -232,6 +229,14 @@ namespace Basketball {
          }
          sr.Close(); // closes experience.txt
       }
+      /*
+      public void getWinPer() {
+         return (wins * 1.0 / ((wins + losses) * 1.0 ));
+      }
+      public void getNonConfPer() {
+         return (nonConfWins * 1.0 / ((nonConfWins + nonConfLosses) * 1.0));
+      }
+      */
    }
 
    class Conference {
@@ -282,7 +287,6 @@ namespace Basketball {
    		// array of teams in bracket
          int i = 0;
          string input;
-
          var teamArray = new Team[352];
 
          while(true) {
@@ -290,69 +294,95 @@ namespace Basketball {
        	    // gets the name of the team, url of data and fetches data
        	   teamArray[i].Name = sr.ReadLine(); // team name
             input = sr.ReadLine(); // team id
-            if (input == null) {
-
+            if (input == null)
                break;
-            }
        	   teamArray[i].setURL(input); // url for schedule
             teamArray[i].setSTATS(input); // url for stats
             teamArray[i].setData();
             // puts all the conferences in the data for each team
             teamArray[i].Conference = ConferenceList.getConf(teamArray[i].Name);
-            temp = teamArray[i].printData(); 
-
+            char status;
+            //List<string> output = new List<string>();
+            
+            //if (games[i,2] == 1) 
+            //   output.Add((games[i,0]-games[i,1]).ToString()); // win margin
+            //else output.Add((games[i,1]-games[i,0]).ToString()); // loss margin
+            //else output.Add("0");
+            
             // puts the conferences of the teams they played into an array
             for (int j = 1; j < teamArray[i].Wins + teamArray[i].Losses; j++) 
                teamArray[i].confSchedule[j] = ConferenceList.getConf(teamArray[i].schedule[j]);
             teamArray[i].getNonConf();
 
-/*
-            // adds all output to be printed
+            string margin;
             output.Add(teamArray[i].Name);
-            output.Add("---------------\n");
+            output.Add("|");
+            //output.Add("---------------\n");
+            for (int j = 1; j < teamArray[i].Wins + teamArray[i].Losses; j++) { // doesnt include the first game
+               if (teamArray[i].games[j,2] == 1) {
+                  status = 'W';
+                  margin = (teamArray[i].games[j,0]-teamArray[i].games[j,1]).ToString();
+               } else { 
+                  status = 'L'; 
+                  margin = "0";
+               }
+               output.Add((27 - teamArray[i].games[j,3]) + "|" + ConferenceList.getConf(teamArray[i].schedule[j]) + "|" + margin + "|" + "|" + "|");
+               //output.Add(status + "\t" + margin + " #" + (27 - teamArray[i].games[j,3]) + "|" + ConferenceList.getConf(teamArray[i].schedule[j]) + "|" + teamArray[i].schedule[j]);
+            }  
+
+            // adds all output to be printed
+            
+            
+            /*
             foreach (string x in temp) 
                output.Add(x);
             foreach (string y in temp2)
                output.Add(y);
+            */
             //output.Add("\n");
-            for (int y = 0; y < teamArray.Length; y++) 
-               output.Add((teamArray[i].Stats[y]).ToString());
+            //Console.WriteLine(teamArray[.Length);
+            
+            //for (int y = 0; y < 11; y++) 
+             //  output.Add((teamArray[i].Stats[y]).ToString());
+            //for (y = 0; y < 40; y++)
+            //   output.Add(
             output.Add("\n");
-            output.Add("===============\n");
-            Console.WriteLine(teamArray[i].nonConfWins); // prints non conference wins
-*/
+            //output.Add("===============\n");
+            //Console.WriteLine("Non Conf Wins: " + teamArray[i].nonConfWins); // prints non conference wins
+
             i++;
-            Console.WriteLine(i);
+            //Console.WriteLine(i);
          }
 
          // closes the teams.txt file
          sr.Close(); 
-
-         Dictionary<string, double> coeff = new Dictionary<string, double>(); // dictionary iwth all athe conf coefficients
-/*        
-         sr = File.OpenText("conference2.txt");
-         string key;
-         double value = 0.0;
-         // makes empty dictionary of just the conferences -> 0
-         for (i = 0; i < 32; i++) {
-            key = sr.ReadLine(); // read team name
-            key = key.Trim();
-            Console.WriteLine(i);
-            coeff.Add(key, value); // conference, coeff
-         }
-
-         sr.Close(); // closes conference2.txt
+/*
+         Dictionary<string, double> coeff = new Dictionary<string, double>(); // dictionary with all the conf coefficients
+         Dictionary<string, double> winPercentageA = new Dictionary<string, double>(); // total win %
+         Dictionary<string, double> winPercentageB = new Dictionary<string, double>(); // nonConf win %
 */
-         // conf coeff = log(totalMargin^(teams in top 25)*(wins% against top 25)*(non conference win %))
-         // fills dictionary with total margin for each conference
-         Console.WriteLine("t");
+         // I need to total the margin for all the teams in a conference and then average them 
+         // sum up all nonConfWins, nonConfLosses, wins, losses for each conference
+
+         // for each key if they have the same value sum the teams stats stuff and count the teams
+         // use another dictionary and either .Add or += to the value for the conferences
+/*
+         //log10 of (Avg. Total Pts Margin)^Teams in Top 25*(10^Avg. vs AP,USA)*(10^Interconf W%)  
+                        ^^ coeff                               ^^ winPercentageA    ^^ winPercentageB  
+                        if keys are the same multiply them together and then take Log10
+         double a, b;    
+         // fix the calculations
          for (i = 0; i < NUMBER_OF_TEAMS; i++) {
-            if (!coeff.ContainsKey(teamArray[i].Conference))
-               coeff.Add(teamArray[i].Conference, teamArray[i].nonConfMargin * 1.0);
-            else if (teamArray[i].Conference != null)
-               coeff[teamArray[i].Conference] += teamArray[i].nonConfMargin;
+            if (!coeff.ContainsKey(teamArray[i].Conference)) {
+               a = Math.Pow(10, (teamArray[i].wins / (teamArray[i].wins + teamArray[i].losses))); // win %
+               b = Math.Pow(10, (teamArray[i].nonConfWins / (teamArray[i].nonConfWins + teamArray[i].nonConfLosses)));
+               coeff.Add(teamArray[i].Conference, a * b); // create a key, value
+            } else if (teamArray[i].Conference != null) {
+               a = Math.Pow(10, (teamArray[i].wins / (teamArray[i].wins + teamArray[i].losses))); // win %
+               b = Math.Pow(10, (teamArray[i].nonConfWins / (teamArray[i].nonConfWins + teamArray[i].nonConfLosses)));
+               coeff[teamArray[i].Conference] += (a * b); // add to key, value
+            }
          }
-         Console.WriteLine("a");
          // ^(teams in top 25)
          sr = File.OpenText("conferenceTop25.txt");
          string team;
@@ -360,18 +390,18 @@ namespace Basketball {
          for (i = 0; i < 32; i++) {
             team = sr.ReadLine(); // conference name
             number = Int32.Parse(sr.ReadLine()) * 1.0; // # of top 25 teams in conference
-            //coeff[team] = (Math.Pow(coeff[team], number)); // maths
+            coeff[team] = (Math.Pow(coeff[team], number)); // maths
          }
-         Console.WriteLine("b");
-         double wins = 0, winsB = 0, total = 0, totalB = 0;
+         // THIS WILL GET THE TOTAL WIN PERCENTAGES IF I CHANGE IT A LITTLE (add counter to divide it up)
+         double wins = 0, winsB = 0, total = 0, totalB = 0, count = 0;
          foreach (var k in coeff.Keys.ToList()) {
             for (i = 0; i < NUMBER_OF_TEAMS; i++) { // goes through all the teams
-               //Console.WriteLine(teamArray[i].Conference);
                if (teamArray[i].Conference == k) {
                   wins += teamArray[i].topWins;
                   total += (teamArray[i].topWins + teamArray[i].topLosses);
                   winsB += teamArray[i].nonConfWins;
                   totalB += (teamArray[i].nonConfWins + teamArray[i].nonConfLosses);  
+                  count++;
                }
             }
             Console.Write(coeff[k] + " --> " + wins + " " + winsB); // coeff[k] == total nonconference winning margin 
@@ -382,12 +412,12 @@ namespace Basketball {
             Console.Write(k + " : ");
             Console.WriteLine(coeff[k]);
          }
-
+*/
         
          // writes to out.txt
-         StreamWriter writer = new StreamWriter("out.txt");
+         StreamWriter writer = new StreamWriter("out2.txt");
          foreach (string x in output) {
-            writer.Write(x + ", ");
+            writer.Write(x);
          } 
       }
    }
